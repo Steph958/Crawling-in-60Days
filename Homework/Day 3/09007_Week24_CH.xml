@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
-  <identifier>2e7da2a9-9bc5-48ee-98f9-c0890e5faff8</identifier>
+  <identifier>1d1574f6-9946-467e-9679-019882abb1e2</identifier>
   <sender>weather@cwb.gov.tw</sender>
-  <sent>2020-12-16T06:19:20+08:00</sent>
+  <sent>2020-12-16T12:21:26+08:00</sent>
   <status>Actual</status>
   <scope>Public</scope>
   <msgType>Issue</msgType>
@@ -12,12 +12,12 @@
     <datasetInfo>
       <datasetDescription>臺灣各縣市鄉鎮未來1週逐24小時天氣預報</datasetDescription>
       <datasetLanguage>zh-TW</datasetLanguage>
-      <issueTime>2020-12-16T05:00:00+08:00</issueTime>
+      <issueTime>2020-12-16T11:00:00+08:00</issueTime>
       <validTime>
-        <startTime>2020-12-16T06:00:00+08:00</startTime>
-        <endTime>2020-12-24T05:00:00+08:00</endTime>
+        <startTime>2020-12-16T12:00:00+08:00</startTime>
+        <endTime>2020-12-24T11:00:00+08:00</endTime>
       </validTime>
-      <update>2020-12-16T06:19:20+08:00</update>
+      <update>2020-12-16T12:21:26+08:00</update>
     </datasetInfo>
     <locations>
       <locationsName>連江縣</locationsName>
@@ -30,7 +30,7 @@
           <elementName>T</elementName>
           <description>平均溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>10</value>
@@ -73,7 +73,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -81,7 +81,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -90,10 +90,10 @@
           <elementName>Td</elementName>
           <description>平均露點溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -133,7 +133,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>6</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -150,10 +150,10 @@
           <elementName>RH</elementName>
           <description>平均相對濕度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>74</value>
+              <value>66</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -161,7 +161,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>76</value>
+              <value>75</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -169,7 +169,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>80</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -177,7 +177,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>75</value>
+              <value>78</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -185,7 +185,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>73</value>
+              <value>76</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -193,7 +193,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>59</value>
+              <value>76</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -201,7 +201,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>70</value>
+              <value>75</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -210,7 +210,7 @@
           <elementName>MaxT</elementName>
           <description>最高溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>11</value>
@@ -229,7 +229,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>13</value>
+              <value>14</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -270,10 +270,10 @@
           <elementName>MinT</elementName>
           <description>最低溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>8</value>
+              <value>9</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -313,7 +313,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>9</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -321,7 +321,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>9</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -330,7 +330,7 @@
           <elementName>MaxAT</elementName>
           <description>最高體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>3</value>
@@ -341,7 +341,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -349,7 +349,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>7</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -373,7 +373,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>5</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -390,10 +390,10 @@
           <elementName>MinAT</elementName>
           <description>最低體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>0</value>
+              <value>1</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -401,7 +401,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>1</value>
+              <value>0</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -409,7 +409,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -417,7 +417,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -425,7 +425,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -433,7 +433,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>2</value>
+              <value>1</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -441,7 +441,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -450,7 +450,7 @@
           <elementName>MaxCI</elementName>
           <description>最大舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>11</value>
@@ -469,7 +469,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>13</value>
+              <value>14</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -493,7 +493,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>13</value>
+              <value>12</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -510,10 +510,10 @@
           <elementName>MinCI</elementName>
           <description>最小舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>8</value>
+              <value>10</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -529,7 +529,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -537,7 +537,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -545,7 +545,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -561,7 +561,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -570,10 +570,10 @@
           <elementName>PoP24h</elementName>
           <description>24小時降雨機率</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>10</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -581,7 +581,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>10</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -589,7 +589,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>20</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -630,7 +630,7 @@
           <elementName>WD</elementName>
           <description>風向</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>東北風</value>
@@ -690,7 +690,7 @@
           <elementName>WS</elementName>
           <description>最大風速</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>&gt;= 11</value>
@@ -778,14 +778,14 @@
           <elementName>Wx</elementName>
           <description>天氣現象</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨</value>
+              <value>陰天</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>11</value>
+              <value>07</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -829,11 +829,11 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天</value>
+              <value>陰短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>07</value>
+              <value>11</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -841,11 +841,11 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰時多雲</value>
+              <value>陰天</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>06</value>
+              <value>07</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -954,10 +954,10 @@
           <elementName>WeatherDescription</elementName>
           <description>天氣預報綜合描述</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨。降雨機率 20%。溫度攝氏8至11度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度74%。</value>
+              <value>陰天。降雨機率 10%。溫度攝氏9至11度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度66%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -965,7 +965,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 20%。溫度攝氏8至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒14公尺)。相對濕度76%。</value>
+              <value>陰天。降雨機率 10%。溫度攝氏8至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒14公尺)。相對濕度75%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -973,7 +973,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 10%。溫度攝氏10至13度。寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度78%。</value>
+              <value>陰天。降雨機率 20%。溫度攝氏10至14度。非常寒冷至寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度80%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -981,7 +981,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏11至13度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度75%。</value>
+              <value>陰天。溫度攝氏11至13度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度77%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -989,7 +989,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏10至12度。寒冷。偏北風 風速&gt;= 6級(每秒15公尺)。相對濕度73%。</value>
+              <value>陰短暫雨。溫度攝氏10至12度。非常寒冷至寒冷。偏北風 風速&gt;= 6級(每秒15公尺)。相對濕度76%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -997,7 +997,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰時多雲。溫度攝氏10至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度59%。</value>
+              <value>陰天。溫度攝氏9至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度75%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1005,7 +1005,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>晴時多雲。溫度攝氏10至12度。寒冷。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度70%。</value>
+              <value>晴時多雲。溫度攝氏9至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度75%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1020,7 +1020,7 @@
           <elementName>T</elementName>
           <description>平均溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>10</value>
@@ -1055,7 +1055,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1071,7 +1071,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1080,10 +1080,10 @@
           <elementName>Td</elementName>
           <description>平均露點溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1123,7 +1123,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>2</value>
+              <value>5</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1140,10 +1140,10 @@
           <elementName>RH</elementName>
           <description>平均相對濕度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>65</value>
+              <value>58</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -1159,7 +1159,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>70</value>
+              <value>72</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -1167,7 +1167,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>67</value>
+              <value>69</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -1175,7 +1175,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>65</value>
+              <value>68</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -1183,7 +1183,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>49</value>
+              <value>67</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -1191,7 +1191,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>61</value>
+              <value>67</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -1200,7 +1200,7 @@
           <elementName>MaxT</elementName>
           <description>最高溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>11</value>
@@ -1260,10 +1260,10 @@
           <elementName>MinT</elementName>
           <description>最低溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>8</value>
+              <value>10</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1311,7 +1311,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1320,7 +1320,7 @@
           <elementName>MaxAT</elementName>
           <description>最高體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>3</value>
@@ -1331,7 +1331,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1339,7 +1339,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>7</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1363,7 +1363,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>5</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1380,10 +1380,10 @@
           <elementName>MinAT</elementName>
           <description>最低體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>0</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1391,7 +1391,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>2</value>
+              <value>1</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1431,7 +1431,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1440,7 +1440,7 @@
           <elementName>MaxCI</elementName>
           <description>最大舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>12</value>
@@ -1451,7 +1451,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>13</value>
+              <value>12</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1500,10 +1500,10 @@
           <elementName>MinCI</elementName>
           <description>最小舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1535,7 +1535,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1551,7 +1551,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1560,7 +1560,7 @@
           <elementName>PoP24h</elementName>
           <description>24小時降雨機率</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>20</value>
@@ -1620,7 +1620,7 @@
           <elementName>WD</elementName>
           <description>風向</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>東北風</value>
@@ -1680,7 +1680,7 @@
           <elementName>WS</elementName>
           <description>最大風速</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>&gt;= 11</value>
@@ -1768,14 +1768,14 @@
           <elementName>Wx</elementName>
           <description>天氣現象</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨</value>
+              <value>陰天</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>11</value>
+              <value>07</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -1819,11 +1819,11 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天</value>
+              <value>陰短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>07</value>
+              <value>11</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -1831,11 +1831,11 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲時陰</value>
+              <value>陰天</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>05</value>
+              <value>07</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -1859,7 +1859,7 @@
             <startTime>2020-12-16T06:00:00+08:00</startTime>
             <endTime>2020-12-16T18:00:00+08:00</endTime>
             <elementValue>
-              <value>1</value>
+              <value>2</value>
               <measures>紫外線指數</measures>
             </elementValue>
             <elementValue>
@@ -1931,7 +1931,7 @@
             <startTime>2020-12-22T06:00:00+08:00</startTime>
             <endTime>2020-12-22T18:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>紫外線指數</measures>
             </elementValue>
             <elementValue>
@@ -1944,10 +1944,10 @@
           <elementName>WeatherDescription</elementName>
           <description>天氣預報綜合描述</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨。降雨機率 20%。溫度攝氏8至11度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度65%。</value>
+              <value>陰天。降雨機率 20%。溫度攝氏10至11度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度58%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1963,7 +1963,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 20%。溫度攝氏11至14度。寒冷。偏北風 風速&gt;= 6級(每秒13公尺)。相對濕度70%。</value>
+              <value>陰天。降雨機率 20%。溫度攝氏11至14度。寒冷。偏北風 風速&gt;= 6級(每秒13公尺)。相對濕度72%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1971,7 +1971,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏12至13度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度67%。</value>
+              <value>陰天。溫度攝氏12至13度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度69%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1979,7 +1979,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度65%。</value>
+              <value>陰短暫雨。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒15公尺)。相對濕度68%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1987,7 +1987,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲時陰。溫度攝氏10至12度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度49%。</value>
+              <value>陰天。溫度攝氏10至12度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度67%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1995,7 +1995,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>晴時多雲。溫度攝氏11至13度。寒冷。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度61%。</value>
+              <value>晴時多雲。溫度攝氏10至13度。寒冷。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度67%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2010,10 +2010,10 @@
           <elementName>T</elementName>
           <description>平均溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>12</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2061,7 +2061,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>13</value>
+              <value>12</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2070,10 +2070,10 @@
           <elementName>Td</elementName>
           <description>平均露點溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2081,7 +2081,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>8</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2105,7 +2105,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>8</value>
+              <value>9</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2113,7 +2113,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>8</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2130,10 +2130,10 @@
           <elementName>RH</elementName>
           <description>平均相對濕度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>70</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2141,7 +2141,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>79</value>
+              <value>80</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2149,7 +2149,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>81</value>
+              <value>83</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2157,7 +2157,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>81</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2165,7 +2165,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>77</value>
+              <value>79</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2173,7 +2173,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>63</value>
+              <value>79</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2181,7 +2181,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>72</value>
+              <value>78</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2190,7 +2190,7 @@
           <elementName>MaxT</elementName>
           <description>最高溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>12</value>
@@ -2225,7 +2225,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>14</value>
+              <value>13</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2250,10 +2250,10 @@
           <elementName>MinT</elementName>
           <description>最低溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>11</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2285,7 +2285,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2301,7 +2301,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2310,7 +2310,7 @@
           <elementName>MaxAT</elementName>
           <description>最高體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>5</value>
@@ -2353,7 +2353,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>6</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2370,10 +2370,10 @@
           <elementName>MinAT</elementName>
           <description>最低體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>1</value>
+              <value>3</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2413,7 +2413,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2421,7 +2421,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2430,7 +2430,7 @@
           <elementName>MaxCI</elementName>
           <description>最大舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>13</value>
@@ -2490,10 +2490,10 @@
           <elementName>MinCI</elementName>
           <description>最小舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2517,7 +2517,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>13</value>
+              <value>12</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2533,7 +2533,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2541,7 +2541,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2550,10 +2550,10 @@
           <elementName>PoP24h</elementName>
           <description>24小時降雨機率</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>10</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2561,7 +2561,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>10</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2569,7 +2569,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>20</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2610,7 +2610,7 @@
           <elementName>WD</elementName>
           <description>風向</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>東北風</value>
@@ -2670,7 +2670,7 @@
           <elementName>WS</elementName>
           <description>最大風速</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>&gt;= 11</value>
@@ -2758,7 +2758,7 @@
           <elementName>Wx</elementName>
           <description>天氣現象</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>陰天</value>
@@ -2809,11 +2809,11 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天</value>
+              <value>陰短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>07</value>
+              <value>11</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -2821,11 +2821,11 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰時多雲</value>
+              <value>陰短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>06</value>
+              <value>11</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -2921,7 +2921,7 @@
             <startTime>2020-12-22T06:00:00+08:00</startTime>
             <endTime>2020-12-22T18:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>紫外線指數</measures>
             </elementValue>
             <elementValue>
@@ -2934,10 +2934,10 @@
           <elementName>WeatherDescription</elementName>
           <description>天氣預報綜合描述</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 20%。溫度攝氏9至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度77%。</value>
+              <value>陰天。降雨機率 10%。溫度攝氏11至12度。寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度70%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2945,7 +2945,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 20%。溫度攝氏10至13度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度79%。</value>
+              <value>陰天。降雨機率 10%。溫度攝氏10至13度。寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度80%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2953,7 +2953,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 10%。溫度攝氏12至15度。寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度81%。</value>
+              <value>陰天。降雨機率 20%。溫度攝氏12至15度。寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度83%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2961,7 +2961,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏12至14度。寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度78%。</value>
+              <value>陰天。溫度攝氏12至14度。寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度81%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2969,7 +2969,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏12至14度。寒冷。偏北風 風速&gt;= 6級(每秒17公尺)。相對濕度77%。</value>
+              <value>陰短暫雨。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒17公尺)。相對濕度79%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2977,7 +2977,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰時多雲。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒16公尺)。相對濕度63%。</value>
+              <value>陰短暫雨。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒16公尺)。相對濕度79%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2985,7 +2985,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲時晴。溫度攝氏12至13度。寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度72%。</value>
+              <value>多雲時晴。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度78%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3000,7 +3000,7 @@
           <elementName>T</elementName>
           <description>平均溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>10</value>
@@ -3043,7 +3043,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3060,10 +3060,10 @@
           <elementName>Td</elementName>
           <description>平均露點溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>5</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3087,7 +3087,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>8</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3120,10 +3120,10 @@
           <elementName>RH</elementName>
           <description>平均相對濕度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>71</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -3131,7 +3131,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>80</value>
+              <value>79</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -3139,7 +3139,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>84</value>
+              <value>85</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -3147,7 +3147,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>80</value>
+              <value>81</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -3155,7 +3155,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>79</value>
+              <value>81</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -3163,7 +3163,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>72</value>
+              <value>80</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -3171,7 +3171,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>76</value>
+              <value>80</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -3180,7 +3180,7 @@
           <elementName>MaxT</elementName>
           <description>最高溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>11</value>
@@ -3240,10 +3240,10 @@
           <elementName>MinT</elementName>
           <description>最低溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>10</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3259,7 +3259,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3291,7 +3291,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3300,10 +3300,10 @@
           <elementName>MaxAT</elementName>
           <description>最高體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3319,7 +3319,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>7</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3360,10 +3360,10 @@
           <elementName>MinAT</elementName>
           <description>最低體感溫度</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>1</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3403,7 +3403,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3411,7 +3411,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -3420,7 +3420,7 @@
           <elementName>MaxCI</elementName>
           <description>最大舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>11</value>
@@ -3431,7 +3431,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>13</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3480,10 +3480,10 @@
           <elementName>MinCI</elementName>
           <description>最小舒適度指數</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3499,7 +3499,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>11</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3515,7 +3515,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3523,7 +3523,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3531,7 +3531,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>10</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3540,7 +3540,7 @@
           <elementName>PoP24h</elementName>
           <description>24小時降雨機率</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>20</value>
@@ -3600,7 +3600,7 @@
           <elementName>WD</elementName>
           <description>風向</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>東北風</value>
@@ -3635,7 +3635,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>偏北風</value>
+              <value>東北風</value>
               <measures>8方位</measures>
             </elementValue>
           </time>
@@ -3660,7 +3660,7 @@
           <elementName>WS</elementName>
           <description>最大風速</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>&gt;= 11</value>
@@ -3748,7 +3748,7 @@
           <elementName>Wx</elementName>
           <description>天氣現象</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
               <value>陰天</value>
@@ -3787,11 +3787,11 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天</value>
+              <value>陰短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>07</value>
+              <value>11</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -3799,11 +3799,11 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天</value>
+              <value>陰短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>07</value>
+              <value>11</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -3811,11 +3811,11 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天</value>
+              <value>陰短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>07</value>
+              <value>11</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -3823,11 +3823,11 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲</value>
+              <value>陰時多雲</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>04</value>
+              <value>06</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -3924,10 +3924,10 @@
           <elementName>WeatherDescription</elementName>
           <description>天氣預報綜合描述</description>
           <time>
-            <startTime>2020-12-16T06:00:00+08:00</startTime>
+            <startTime>2020-12-16T12:00:00+08:00</startTime>
             <endTime>2020-12-17T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 20%。溫度攝氏9至11度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度78%。</value>
+              <value>陰天。降雨機率 20%。溫度攝氏10至11度。寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度71%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3935,7 +3935,7 @@
             <startTime>2020-12-17T00:00:00+08:00</startTime>
             <endTime>2020-12-18T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨。降雨機率 50%。溫度攝氏10至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度80%。</value>
+              <value>陰短暫雨。降雨機率 50%。溫度攝氏10至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度79%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3943,7 +3943,7 @@
             <startTime>2020-12-18T00:00:00+08:00</startTime>
             <endTime>2020-12-19T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。降雨機率 20%。溫度攝氏12至13度。寒冷。偏北風 風速&gt;= 6級(每秒16公尺)。相對濕度84%。</value>
+              <value>陰天。降雨機率 20%。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒16公尺)。相對濕度85%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3951,7 +3951,7 @@
             <startTime>2020-12-19T00:00:00+08:00</startTime>
             <endTime>2020-12-20T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏11至12度。寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度81%。</value>
+              <value>陰短暫雨。溫度攝氏11至12度。寒冷。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度81%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3959,7 +3959,7 @@
             <startTime>2020-12-20T00:00:00+08:00</startTime>
             <endTime>2020-12-21T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏10至12度。寒冷。偏北風 風速&gt;= 6級(每秒18公尺)。相對濕度79%。</value>
+              <value>陰短暫雨。溫度攝氏10至12度。非常寒冷至寒冷。東北風 風速&gt;= 6級(每秒18公尺)。相對濕度81%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3967,7 +3967,7 @@
             <startTime>2020-12-21T00:00:00+08:00</startTime>
             <endTime>2020-12-22T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰天。溫度攝氏10至12度。寒冷。偏北風 風速&gt;= 6級(每秒16公尺)。相對濕度72%。</value>
+              <value>陰短暫雨。溫度攝氏10至12度。非常寒冷至寒冷。偏北風 風速&gt;= 6級(每秒16公尺)。相對濕度80%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3975,7 +3975,7 @@
             <startTime>2020-12-22T00:00:00+08:00</startTime>
             <endTime>2020-12-23T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲。溫度攝氏11至13度。寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度76%。</value>
+              <value>陰時多雲。溫度攝氏10至13度。非常寒冷至寒冷。偏北風 風速&gt;= 6級(每秒14公尺)。相對濕度80%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>

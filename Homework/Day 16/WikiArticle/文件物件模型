@@ -1,0 +1,6 @@
+文件物件模型（英語：Document Object Model，縮寫DOM），是W3C組織推薦的處理可延伸標示語言的標準程式介面。
+
+Document Object Model的歷史可以追溯至1990年代後期微軟與Netscape的「瀏覽器大戰」（browser wars），雙方為了在JavaScript與JScript一決生死，於是大規模的賦予瀏覽器強大的功能。微軟在網頁技術上加入了不少專屬事物，既有VBScript、ActiveX、以及微軟自家的DHTML格式等，使不少網頁使用非微軟平台及瀏覽器無法正常顯示。DOM即是當時醞釀出來的傑作。
+
+W3C對DOM進行標準化的動作，目前已經推行至第四代。
+

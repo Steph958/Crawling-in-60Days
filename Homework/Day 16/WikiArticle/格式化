@@ -1,0 +1,4 @@
+格式化文本（英文：formatted text、styled text、rich text），與純文本（plain text）相對，具有風格、排版等信息，如顏色、式樣（黑體、斜體等）、字體尺寸、特性（如超連結）等。 
+
+格式化文本不等同於二進位文件，也不一定就不是ASCII文本。因為格式化文本不一定是二進位的，它也可以是一般的文本，如HTML，RTF，enriched text等文件，因此可以是ASCII文本文件。相反，一個純文本（plain text）也可以非ASCII文件（如UTF-8編碼的文件）。 作為文本文件的格式化文本是用標記語言來寫的。Microsoft Word處理的格式化文本是二進位文件。 
+

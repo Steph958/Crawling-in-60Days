@@ -1,0 +1,192 @@
+Mozilla Firefox，通稱Firefox，中文也通稱火狐，是一個自由及開放原始碼的網頁瀏覽器[16]，由Mozilla基金會及其子公司Mozilla公司開發。Firefox支援Windows、macOS及Linux，其行動版支援Android及Firefox OS，這些版本的Firefox使用Gecko來排版網頁，Gecko是一個執行當前與預期之網頁標準的排版引擎[17]，而在2015年釋出的Firefox for iOS則非使用Gecko。
+
+Firefox於2002年由Mozilla社群成員建立，當時叫做「Phoenix」，因為社群成員們想要一個獨立的瀏覽器，而非Mozilla Application Suite這樣的套件。即使在測試階段，Firefox也在測試者中頗為流行，並因其速度、安全性及擴充元件而受稱讚。Firefox於2004年11月首次釋出，並且9個月內下載量超過6,000萬，取得了巨大的成功，Internet Explorer的主導地位首次受到了挑戰[18]。Firefox被認為是Netscape Navigator的精神續作，因為Netscape於1998年被AOL收購前建立了Mozilla社群。
+
+Firefox全球市佔率為35％至40%，為全球第二流行的網頁瀏覽器[19][20][21][22][23]。Firefox在某些國家還是最流行的網頁瀏覽器，如在薩摩亞、德國、厄利垂亞及古巴，Firefox市佔率分別為61.05%、38.36%、79.39%及85.93%。據Mozilla統計，截至2014年12月 (2014-12)[update]，Firefox在全世界擁有5億使用者[24]。
+
+Firefox最初是Mozilla Application Suite的一個實驗性分支，由戴夫·海厄特、喬·休伊特及布雷克·羅斯建立。他們認為原贊助者網景公司的商業要求及其開發者導向的特徵蔓延特色會降低瀏覽器的可用性[25]，為了解決這個問題，他們開始以Mozilla Suite為基礎，建立了一個獨立的瀏覽器，目的是取代功能複雜的Mozilla Suite[26]。2003年4月3日，Mozilla宣布他們將把開發目標由Mozilla Suite轉移到Firefox和Thunderbird上[27]。之後形成了由社群開發維護的SeaMonkey，並最終於2005年取代了Mozilla Application Suite。
+
+Firefox命名時歷經波折，最初取名為「Phoenix」，取自神話中從自身灰燼復活的不死鳥，代表新的瀏覽器從Netscape灰燼中浴火重生。但因為和鳳凰科技（Phoenix Technologies（英語：Phoenix Technologies））名稱衝突而改為「Firebird」。後來，這個新名稱又與另一個開放原始碼的資料庫系統Firebird發生了衝突[28][29]，Firebird的開發社群要求以全稱「Mozilla Firebird」來標識這個專案或重新命名，避免混淆。2004年2月9日，Mozilla Firebird改稱「Mozilla Firefox」，簡稱「Firefox」[30]，正式縮寫為「Fx」或「fx」[31]，不過常被簡稱「FF」[32]。
+
+Firefox的開發目標是「盡情地上網瀏覽」[33]和「對多數人來說最棒的上網體驗」[34]。
+
+Firefox有許多特色，如分頁瀏覽、拼字檢查、遞增搜尋、即時書籤、下載管理員、自訂搜尋引擎、隱私瀏覽等等。使用者還可以透過附加元件和佈景主題來自訂Firefox的功能和外觀。截至2015年1月19日，在Mozilla維護的附加元件網站中，已經有18,000種的附加元件可供下載[35]。
+
+對於網頁開發者，Firefox也提供一個良好的開發平台。網頁開發者可以透過內建的工具來進行開發工作，例如：錯誤主控台、DOM觀察器，此外還可透過如Firebug、Web Developer等附加元件來延伸開發功能。
+
+Firefox支援非常多的網頁標準，如HTML、XML、XHTML、SVG 1.1（部份的）、CSS（除了標準之外，還有擴充的支援[36]）、ECMAScript（JavaScript）、DOM、MathML、DTD、XSLT、XPath和PNG圖檔（包含透明度支援）[37]。
+
+Firefox從3.0版開始就通過了Acid2標準一致性測試[38]。Mozilla最初表示，他們不打算讓Firefox完全通過Acid3測試，他們認為SVG字體測試部份已經過時且無關緊要，因為所有主流瀏覽器開發商都將WOFF作為標準。由於SVG字體測試在2011年9月從Acid3測試中刪除，因此Firefox 4及更高版本的得分為100/100[39][40]。
+
+Firefox使用了沙盒安全模組[41]，限制了網頁手稿語言對使用者端資料的存取，保護使用者不受惡意手稿語言的攻擊。在傳輸網頁資料時，則使用SSL/TLS的加密方式，以保障使用者和網站之間能隱密地傳輸資料[42]，此外也支援使用智慧卡驗證資料[43]。
+
+Mozilla基金會提供了「臭蟲獎金」來獎勵發現Firefox及旗下產品漏洞的研究者，獎金為3,000美元和一件T恤[44]，Mozilla官方希望安全弱點可以在被惡意利用之前被發現，進而得到及時修正，避免使用者遭受攻擊[45]。
+
+因為Firefox比起Internet Explorer來說尚未修正的安全漏洞較少，因此在鼓勵使用者由Internet Explorer轉換到Firefox時，提昇上網安全性是一常見理由[46][47][48]。《華盛頓郵報》（Washington Post）也報導稱，在2006年一年之中，Internet Explorer共有284天讓使用者暴露在未修正的安全漏洞中，而Firefox只有9天[49]。
+
+一份2006年賽門鐵克公司的報告顯示，到該年9月為止，雖然Firefox的安全漏洞比其他瀏覽器多，但修正漏洞的速度讓其他瀏覽器望塵莫及[50]。但在經過安全性研究後，賽門鐵克公司澄清了之前的描述，稱Firefox比起Internet Explorer來說安全漏洞還是比較少[51]。根據軟體安全統計網站Secunia的資料顯示，到2008年3月26日為止，Firefox 2有4個尚未修正的安全漏洞，且多數標示為「低度危險」[52]。相對的，Internet Explorer 7卻有8個安全漏洞尚未修正，且多數被標示為「中度危險」[53]。甚至有安全專家建議，微軟IE升級模式應效仿Firefox瀏覽器，如果在現行版本中發現重大安全漏洞，就應即時發布漏洞更新[54]。
+
+從Firefox 2.0起Mozilla就與Google一起合作，為使用者提供反釣魚保護，當在Firefox 2.0上存取釣魚網站時，使用者可馬上得到提示。Firefox的黑名單來自於Google搜尋中的SafeBrowsing Protocol[55]，而從2009年的1月20日起Google正式關閉Firefox 2.0的反釣魚技術[56]，但是對Firefox 3及最新版本依然提供保護。
+
+2011年12月，Accuvant安全測試公司在由Google資助的研究報告中指出，Internet Explorer 9安全性已相當接近同期的Google Chrome 15，反觀同期的Mozilla Firefox 9則居於其後[57]，但隨後有NSS Labs安全測試公司指此項研究有失中立性，並指出Accuvant公司曾接受Google的巨額贊助，在研究過程中，Firefox的許多安全特性也被刻意忽略，而未作測試，選取測試用惡意外掛程式的方式亦有偏袒Chrome，打壓Firefox之嫌[58]。
+
+Firefox 60 率先支援了有效提高瀏覽安全性的 TLS 1.3 協定，以及 DNS over HTTPS 方案，前者可以避免舊版 TLS 中的漏洞，而後者可以避免中間人得知 DNS 查詢的域名。[59]
+
+2019年10月，Firefox 68 ESR在德國聯邦資訊安全辦公室對瀏覽器進行的測試中通過了所有強制性安全功能的最低要求。[60]
+
+Firefox是一個在地化非常廣泛的網頁瀏覽器，自2004年11月正式發表後便支援24種語言版本，包括美國英語、英國英語、歐洲西班牙語、阿根廷西班牙語、正體中文、簡體中文等[61]。至今已支援89種語言。這其中 Mozilla 中國分部謀智中國推出的火狐中國版還在功能上進行了在地化工作（實際是輔以在地化的附加元件套件以及 Firefox Sync 的中國版：伺服器運行於中國大陸境內的「火狐通行證」提供在地化雲端同步服務）
+
+Firefox亦可執行於Windows、OS X和Linux。Firefox行動版可執行於Android、iOS以及自家的作業系統Firefox OS。
+
+除了上述的作業系統之外，由於Firefox是開放原始碼的軟體，加上程式碼是與作業系統獨立的，因此Firefox可以在多種平台和作業系統上編譯，包括了OS/2、AIX、FreeBSD[62]、Windows XP Professional x64版上都有可執行的Firefox編譯檔。在其他比較小型的作業系統，例如：SkyOS、ZETA上也都有Firefox的蹤跡。
+
+Firefox使用統一的設定檔格式，因此不同作業系統的Firefox可以共享相同的設定，不過可能會遭遇一些問題，特別是附加元件的使用上。
+
+Windows 10下執行Firefox Developer Edition 69.0b3
+
+Windows 8.1下執行Firefox 29
+
+OS X Mavericks下執行Firefox 30
+
+Arch Linux下執行Firefox 31
+
+Android下執行Firefox for mobile 31
+
+Firefox OS下執行Firefox
+
+Firefox附加元件包含了擴充套件、佈景主題、外掛程式等，這些附加元件可以從Mozilla官方維護的附加元件官方網站下載，或是從其他的第三方開發者取得。
+
+使用者可以透過安裝擴充套件來新增或修改Firefox的功能。擴充套件的種類包羅萬象：像滑鼠手勢、彈出式廣告阻擋、加強的分頁瀏覽等等。擴充套件雖然提供了高度自由化的擴充功能，但是使用者可能在尋找和安裝擴充套件上遭遇困難，也會建議把擴充套件的功能整合到Firefox中，像是分頁瀏覽就是從一個Mozilla上的擴充套件MultiZilla中移植過來的[63][64]。
+
+多數的擴充套件不是由Mozilla建立或支援的，擴充套件在使用者的電腦中也具有存取資料的權限，因此也有出現過惡意的擴充套件[65]。甚至有些病毒專門利用某些擴充套件來盜取使用者的網路銀行密碼[66]。Mozilla提供了對擴充套件的驗證，來確保這些志願開發者提供的擴充套件沒有包含任何惡意軟體。此外由第三方開發者所製作的擴充套件，Mozilla並不保證可以在Mozilla的產品上運作，也可能包含任何軟體錯誤或者安全漏洞[67]。
+
+在Firefox瀏覽器的網址列中輸入文字時會顯示符合的書籤和歷史。增加可設定的搜尋符號時（與搜尋關鍵字中間要有空格），會顯示限定的搜尋結果，規則如下：
+
+Firefox瀏覽器提供了便捷的文字選取操作，在網頁文字上滑鼠左鍵雙擊可以選取一個詞，三擊可以選取一段話。按住Ctrl（蘋果機上是⌘ Cmd）可以在不取消已選取文字的前提下選取其它文字。
+
+除了正式版本，Firefox還有兩種測試版本，按穩定性排序，分別為Beta及Nightly。
+
+Firefox延長支援版本（Extended Support Release，簡稱「ESR」）是針對需要大規模部署的組織和其他團體所推出的版本，提供長達大約一年的支援服務[68]。不同於快速開發週期，ESR版本每四週更新不會有新功能加入和效能加強，僅會有安全性更新和重大穩定性修復，直到ESR的週期結束[69]。
+
+Firefox有下列的系統需求：
+
+IA-32、x64
+
+Windows Server 2008 R2或更新
+
+從2004年首次正式發布開始，Firefox就展開了一系列積極的推廣活動。隨著這些活動，Firefox下載數量在一年後就迅速達到1億次[74]。而在2009年的8月份Firefox的下載量就突破性地達到了10億次。這只是對其官方網站統計而所作出的結果，而不包括從其他網站下載的次數[75]。
+
+在2004年9月12日，名為「Spread Firefox」的社群行銷網站正式隨著Firefox預覽版一起推出[76]，網站提供了各種推廣Firefox方式的訊息交換中心。12月16日，Mozilla基金會號召支持者買下紐約時報全版廣告，刊登即將在釋出的Firefox 1.0。短短十天的募捐活動已經獲得來自一萬人共25萬美元的捐款[77]。
+
+而「世界Firefox日」活動則是為慶祝Firefox的建立者Mozilla基金會成立三週年，自2006年7月15日開始[78][79]，為期兩個月，到2006年9月15日為止[80]。參與活動的人如果推薦一位您的朋友使用下載Firefox，您和朋友的名字並有機會在Firefox朋友之牆（Firefox Friends Wall）上留名，這是一個位於Mozilla基金會總部的數位顯示版。
+
+2006年8月12日，美國奧勒岡州立大學Linux小組Firefox專案（Oregon State University Linux Group Firefox project）在美國奧勒岡州附近的燕麥田製作出Firefox麥田圈，慶祝Firefox下載量達2億次[81][82][83]。
+
+2008年2月21日，Firefox的下載數量到達了5億次，Firefox社群發動到FreeRice網站猜問題，取得5億顆米來慶祝[84]。
+
+2008年，在Firefox 3.0正式發布前，社群發動Firefox Download Day（直譯為Firefox下載日），希望重新整理金氏世界紀錄中「單日最多人下載軟體」的一項。支持者需預先到推廣網站Spread Firefox登記，在Firefox 3.0發布當日便會收到電子郵件提示參與活動[85]。
+
+Firefox 3.0自6月18日凌晨釋出創下24小時下載金氏紀錄後，熱浪持續，48小時下載超過1200萬（這個統計不包含原有Firefox使用者透過自動更新升級到Firefox 3.0）[86]。
+
+雖然獲得了大量使用者的下載，但是據Mozilla公司的資料統計表明約有75%的下載者並不使用Firefox作為他們的瀏覽器[87]。而根據相關的資料統計，在有解除安裝Firefox的使用者中，有30%來自中國，排在後面的分別是美國（23%），日本、巴西和德國（9%）[88]。為此Mozilla公司就開始了一個叫做「Impact Mozilla」的計劃，想讓下載Firefox的網友們成為真正的Firefox忠誠使用者[89]。
+
+早期Firebird和Phoenix版本的標誌被認為具有合理的視覺設計，但與許多其他專業軟體包裝相較之下並不理想。Firefox的標誌最初由Mozilla基金會的視覺象徵小組所設計，視覺象徵小組的率領者是加拿大網頁設計公司Silverorange的Steven Garrity，他是在執筆Mozilla商標建議文件後被招攬的，該文件引起了廣泛的討論[90]，而標誌最終的版本則是由喬恩·希克斯完成，希克斯同時也是Camino圖示的設計者[91][92]。後來，這個標誌再度被修改和更新，修復了放大時發現的幾個缺陷[93]。Firefox在英文俗語裡雖然指的是小熊貓（學名：Ailurus fulgens），但是開發小組卻採用將「fire」和「fox」分開來直譯蘊意，把吉祥物及官方圖示都設計為火紅的小狐狸[92]。 
+
+「Phoenix」和「Firebird」標誌（被改名為Firefox之前所採用的標誌）
+
+Firefox 1.0－3.0的標誌（2004年11月9日-2009年6月29日）[91]
+
+Firefox 3.5－22的標誌（2009年6月30日-2013年8月5日）[94]
+
+Firefox 23－56的標誌（2013年8月6日-2017年11月13日）[95]
+
+Firefox 57－69的標誌（2017年11月14日-2019年10月21日）[96]
+
+Firefox 70及以上版本的標誌（2019年10月22日啟用至今）[97]
+
+Aurora標誌，用於表示Alpha版本[98]
+
+Nightly標誌，用於表示每夜建構Pre-alpha版本[99]
+
+Minefield標誌（被Nightly標誌取代）
+
+開發者使用版（Developer Edition）標誌
+
+網站「Forbes.com」稱Firefox為「2004年最佳瀏覽器」[100]，雜誌《PC World》在「2005年最佳百大產品」中也將Firefox列入[101]，在Firefox 2和Internet Explorer 7推出的2006年，PC World也對這兩個瀏覽器做出評論，並認為Firefox是比較好的瀏覽器[102]。雜誌《Which?》也提名Firefox為最佳的網頁瀏覽器[103]。英國Vnunet網站甚至把Firefox的市場份額的不斷攀升列為10大鼓舞人心IT事件之一[104]。
+
+媒體《Internet Week》在一篇文章中提到許多讀者在使用Firefox 1.5時記憶體用量相當的高[105]。Mozilla的開發團隊表示Firefox 1.5記憶體用量的升高是因為新的「上一頁／下一頁」（FastBack）功能所導致的[106]。此外設計錯誤的擴充套件，像是某些舊版的Adblock[107]，或者一些外掛程式（plug-ins）[108] 也是造成記憶體使用量增多的原因。《PC Magazine》比較了Firefox、Opera、Internet Explorer這三個瀏覽器的記憶體使用量，認為Firefox的記憶體使用量接近其他兩個瀏覽器[109]。另外由《PC World》和《Zimbra》的測試也指出Firefox 2的記憶體用量少於Internet Explorer 7[102][110]，還在測試中的Firefox 3（以beta 1版本來進行測試）記憶體使用量沒有低於Firefox 2，不過仍然少於Internet Explorer 7[111]。
+
+如同其他的瀏覽器一樣，Firefox也有一些安全漏洞，可能會影響使用者的電腦安全，不過根據CERT的統計，Firefox的安全漏洞也少於Internet Explorer[112]。
+
+《Softpedia》的測試指出Firefox比起其他瀏覽器需要比較長的啟動時間[113]，IE6也比Firefox有稍快的啟動速度，不過這是因為IE用到的程式組件有些在Windows啟動後就載入了，因此會有較快的啟動時間。
+
+但也有評論家大唱反調：根據2009年一篇刊登在《PC World》雜誌上的分析文章稱，在與Chrome瀏覽器的競爭中，Firefox瀏覽器正逐漸失去電腦專家的青睞。儘管Mozilla基金會仍致力於一些宏大的目標，但火狐瀏覽器已經宣告死亡[114]。
+
+Mozilla Firefox自推出之後便得到許多的獎項：
+
+Mozilla Firefox市佔率從發行初期就開始不斷的增加，大多數是因為Internet Explorer的市佔率降低而來。自Firefox釋出開始，Internet Explorer的佔有率便穩定的下降。
+
+Firefox的下載數量自2004年11月釋出正式版後持續的增加，截自2009年7月31日，Firefox下載次數已突破一億[139]。這是官方的統計數字，並不包含透過軟體更新或者其他第三方網站的下載數量[140]。而且下載數量並不能反應實際的使用者數，因為一個使用者可能在很多台電腦上下載、安裝Firefox。根據Mozilla執行長約翰·李利在2008年2月表示，Firefox目前大約有1億4千萬的使用者[141]。根據一位Firefox開發者阿沙·道茲樂（英語：Asa Dotzler）的說法，在統計每天的「ping」命令的使用量後，到2009年5月在全球至少有2.7億使用者使用Firefox[142]。
+
+這樣快速的成長以至於有網路媒體稱Firefox將在2013年超越IE[143]。但是微軟卻對這些數字表示質疑[144]。有媒體甚至具體列舉出了10條Firefox將擊敗微軟IE的理由[145]。這也就不奇怪在微軟2008年向美國證券交易委員會提交的10-K管理檔案中稱，Firefox已對微軟Windows業務構成威脅，這也是微軟首次公開把Firefox當作Windows業務競爭對手[146]。
+
+2010年7月2日，IBM宣布全球員工將採用Firefox作為預設瀏覽器[147]。
+
+然而，從2012年開始，Firefox的市占率有所衰退，主因是競爭對手Google Chrome市佔率的大幅增加。但仍與IE、Chrome保持「三足鼎立」局面[148]。
+
+Firefox的開發者們在Firefox設計了多個「彩蛋」，以下是Firefox中著名的幾個彩蛋。
+
+在網址列輸入about:mozilla並打開就能看到「Mozilla之書」頁面，每當有里程碑式的版本或事件發生就會有Mozilla之書的更新：
+
+
+The Beast adopted new raiment and studied the ways of Time and Space and Light and the Flow of energy through the Universe. From its studies, the Beast fashioned new structures from oxidised metal and proclaimed their glories. And the Beast's followers rejoiced, finding renewed purpose in these teachings.
+
+
+
+
+
+野獸披上新裝，查究貫通宇宙的時、空、光與能量流動之道。在那之後，野獸從氧化金屬長出新軀幹，宣告了他們的輝煌。野獸的追隨者歡欣鼓舞，自這些教訓中重獲新的方向。
+
+
+
+從Firefox 3.0開始在網址列輸入about:robots會出現以下訊息：
+
+Welcome Humans!
+
+We have come to visit you in peace and with goodwill!
+
+And they have a plan.
+
+我們帶著和平與友好前來拜訪你！
+
+而且他們有個計劃⋯
+
+
+
+我们带着友好与和平前来拜访您！
+
+而且他们有个计划。
+
+
+
+
+
+在文末下方有個寫著「重試」的按鈕，點擊後提醒「請不要重複點擊此按鈕」，再次點擊後按鈕消失。
+
+從Firefox 29.0開始，將選單中的所有可移除的項目移除會看到一隻獨角獸在跳動[149]。
+
+從Firefox 57.0開始，將所有現有項目拖放到Firefox工具欄中清空自訂頁面，您會注意到在「密度」下拉框旁邊添加了一個新的「獨角獸」方塊/按鈕。[150]
+
+自Firefox 2.0開始，Firefox每釋出大版本號，IE開發團隊就會贈送大蛋糕以示祝賀。但自從Firefox 5.0開始進入快速更新大版本號後，開發團隊所贈送蛋糕開始變小，直到Firefox 8.0後，IE開發團隊表示Firefox更新過快，已經沒能力維持下去而不再贈送蛋糕。[151][152][153]
+
+不過IE10正式釋出時，Firefox開發團隊反向對方贈送蛋糕表示祝賀，IE開發團隊表示感激並期盼Firefox能儘快釋出適用於Windows 8的Firefox版本。[154]
+
+官方資源
+
+
+
+官方下載 （英文）
+
+
+社群資源
+

@@ -1,0 +1,37 @@
+Windows NT 4.0是微軟Windows NT家族的第四套產品，代號：（SUR (Shell Update Release)、Indy），於1996年7月29日發行給製造商。為一個32位元的作業系統，分為工作站以及伺服器版本。而其圖形操作介面類似於Windows 95。根據比爾蓋茲所言，產品名稱中的"NT"為"New Technology（新技術）"的意思，然而時至今日，該名稱已經沒有其他特殊意義存在。
+
+Windows NT 4.0在Windows 2000推出之後，微軟已經終止所有關於NT4的服務，然而到2007年為止，儘管微軟希望他們的客戶可以換成新的版本，依然有許多的公司企業配合舊硬體持續穩定地運作該系統中。
+
+微軟在1995年5月26日發布過新介面的測試版「Shell Technology Preview」，並常以「NewShell」來非正式的代稱。包括Windows GUI的工作列和開始功能表。廢棄了Windows 3.x程式管理器/檔案管理員式介面，改用Windows Explorer式使用者圖形介面。該測試版的介面和Chicago（Windows 95開發代號）Beta 2階段時的極為相似，但它的定位不過是測試版。Shell Technology Preview有第二個公開版「Shell Technology Preview Update or NewShell 2」，1995年8月提供給MSDN和CompuServe使用者。Shell Technology Preview直到Windows NT 3.51發行時都沒推出正式版。後來Shell Technology Preview與Windows NT程式碼合併為Shell Update Release專案，所以Shell Update Release是內建新介面的下一個主要Windows NT版本，於1996年7月作為Windows NT 4.0發布。
+
+最值得注意的特點是不論工作站或者伺服器版本的Windows NT 4.0都使用Windows 95的使用者介面，包括Windows Shell、Windows Explorer（被稱為Windows NT Explorer）、以及使用"我的"命名法（舉例：我的文件、我的電腦）。
+
+伺服器版本的Windows NT 4.0內建了網頁伺服器，IIS 2.0。並且直接支援Microsoft FrontPage（撰寫以及管理網站的一支應用程式）的外掛外掛程式（plugins）以及延伸資源（extensions）。
+
+此版本另一個重要的特色為針對網路應用程式提供了Microsoft Transaction Server，以及Microsoft Message Queuing (MSMQ)，提高了通訊能力。
+
+而跟之前版本的明顯差異，即為Windows NT將Graphics Device Interface (GDI)整合進系統核心[5]以提升圖形使用者介面（GUI）的效率，使得系統效能跟Windows NT 3.51相比有長足的進步，不過也使得圖形驅動程式也必須放在核心之中，造成潛在的穩定性問題。
+
+Windows NT 4.0的其中一項缺點為欠缺對Direct3D的支援。不過這個問題在之後版本的NT家族中（例如Windows 2000）獲得了解決。Windows NT 4.0也不支援USB，這項問題也伴隨著Windows 2000的問世而消除。也有第三方廠商開發的公用程式提供了Windows NT 4.0對於DirectX以及USB的支援。
+
+為了修正程式錯誤，微軟在Windows NT 4.0的產品生命週期中，曾經釋出數個Service Pack，包括服務更新包跟選擇更新包。最後完整的Service Pack為Service Pack 6a (SP6a)。
+
+SP7原本預定在2001年初期釋出，但是卻成為SP6a後安全更新，而不是一個完整的Service Pack。
+
+釋出的Service packs以及option pack也被用來增加新的功能。包括新版本的IIS 3.0和4.0，增加Active Server Pages、公鑰以及憑證授權功能、智慧卡（Smart Card）支援、強化對稱多處理機（SMP Symmetric Multi Processor）的彈性，叢集支援、以及組件物件模型（COM）支援、以及其他等等。
+
+Windows NT 4.0伺服器被包含於BackOffice Small Business Server4.0以及4.5套裝軟體中。
+
+雖然穩定性高於Windows 95，然而從桌上型電腦的觀點來說，操作介面稍微欠缺了彈性。系統穩定性大部份要歸功於將硬體資源虛擬化，軟體必須藉由系統的API以使用硬體資源，而不像DOS以及Windows 95（包括稍後的版本）時期直接由軟體進行控制的緣故。但穩定的代價就是利用API進行操作所需要的步驟遠比直接操作硬體資源多，因此造成硬體需求廣泛的程式（如：遊戲）執行上緩慢許多。許多以Win32 API開發的程式可以在Windows 95以及Windows NT上執行，但當時的主流3D遊戲則因為NT 4.0對DirectX的支援有限而無法在NT4上面運作。
+
+Windows NT 4.0在進行維護管理工作的時候，使用者介面比起Windows 95較為不友善，舉例而言，對於電腦的硬體沒有裝置管理概述。
+
+NT與"9x"的分界線直到Windows XP的推出之後才消失，原因包括遊戲用的APIs—諸如OpenGL以及DirectX—已經成熟到有夠高的運作效率，並且加上硬體本身也有夠高的效能，才能夠以可接受的速度運行API。
+
+Windows NT 4.0對於安全性問題MS03-010並沒有任何更新。
+沒有更新的原因為，微軟宣稱「基於Windows NT 4.0和Windows 2000一些基本上的差異，為了修正此錯誤而重新編譯Windows NT 4.0是不可能的，因為這需要重新建置大部份Windows NT 4.0的作業系統，而不是僅僅修改受影響的的RPC元件，這種規模的系統更新將不能保證原本為了Windows NT 4.0設計的程式能夠繼續在更新過的系統上運作。」
+
+作為替代方案，微軟建議Windows NT 4.0使用者以安裝防火牆阻擋連接埠135以保護他們的NT 4.0系統。
+
+於2004年12月31日，微軟終止了Windows NT 4.0，包括安全更新的所有技術支援。因此，微軟建議目前的Windows NT客戶升級為更新、更安全的作業系統，例如Windows XP或者Windows Server 2003。
+

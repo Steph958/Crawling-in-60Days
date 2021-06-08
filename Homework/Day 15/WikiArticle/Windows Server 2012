@@ -1,0 +1,20 @@
+Windows Server 2012，開發代號為Windows Server 8，是第五個Windows Server的版本。這是Windows 8的伺服器版本，是微軟繼Windows Server 2008 R2後推出的Windows Server系列產品。在開發過程中，它放出過兩個版本：開發者預覽版與公開測試版。從2012年9月4日開始，該軟體在全球範圍內通過多種管道提供給客戶。
+
+不同於上一代，Windows Server 2012不支援Itanium（IA-64）或IA-32架構的CPU。Windows Server 2012有四個版本，較Windows Server 2008 R2做了很多改進。例如改進版本的Hyper-V，IP位址管理角色，新的Windows工作管理員，以及新的ReFS檔案系統。同時，它也包含Metro使用者介面，Windows Server 2012的這些功能收到很多正面評價。
+
+Windows Server 2012是一套和Windows 8相對應的伺服器作業系統，兩者擁有很多相同功能。兩者在開發時共享大多數的程式碼：類似Vista和Server 2008、XP和Server 2003之間的關係。
+
+Windows Server 2012延續Windows Azure成功的經驗而設計的雲端最佳化平台。配備最新的虛擬化技術和簡單控制管理等特性、相容於任何雲端架構的設計與整合行動裝置管理等嶄新功能，令企業可建置私有雲端或是混合雲端，並有效降低成本。[2]
+
+Windows Server 2012的升級版Windows Server 2012 R2。於2013年6月3日發布預覽版，2013年10月17日發布正式版。
+
+本次更新支援從Windows Server 2008和Windows Server 2008 R2升級至Windows Server 2012 ，低於此版本的作業系統（如：Windows Server 2003）則無法進行更新。[3]
+
+微軟已表示Windows Server 2012不支援IA-32或IA-64安騰處理器。[4]
+
+Windows Server 2012有4種版本：Foundation, Essentials, Standard  and Datacenter.[5][6][7][8][9]
+
+原本Windows Server 2008 R2包含企業版, 但至Windows Server 2012 企業版已消失,表示原先的企業版功能已由Datacenter版取代及加強。
+
+Windows Server 2012 R2於2013年10月17日發行。[11]這是Windows 8.1的伺服器版本，在2013年6月3日的TechEd北美公布。[12]據稱Windows Server 2012 R2資料表在2013年5月31日出版，有四個作業系統版本：Foundation、Essentials、Standard和Datacenter。[13]Windows Server 2012，Datacenter和Standard版功能相同，變化只有授權（特別是虛擬實例授權） 。Essentials版和Datacenter和Standard產品功能相同，但部分受限。[14]
+

@@ -1,0 +1,12 @@
+
+
+lighttpd（讀作lighty）[1] 是一款以BSD授權條款開源的網頁伺服器，在確保相容常見標準、安全性及靈活性的情況下專為需要處理速度的環境最佳化。此軟體起初為揚·克內施克對c10k問題（英語：c10k problem）（如何同時並列處理10000條連接的問題）的概念驗證，但隨後受到了大眾歡迎。[2]其名稱是「light」（輕量）與httpd的混成詞。相較於其他的網頁伺服器，lighttpd僅需少量的記憶體及CPU資源即可達到同樣的效能。
+
+相比其他網頁伺服器軟體而言，lighthttpd的低記憶體占用、[3]低CPU負載及速度最佳化[4]使其成為負載過重或提供靜態媒體伺服器的合適之選。lighttpd是一款自由及開放原始碼軟體，以BSD授權條款釋出。它可原生執行在類Unix系統作業系統及Microsoft Windows上。[5]
+
+
+
+lighttpd支援向外部程式開放FastCGI、SCGI及CGI，允許以任意程式語言編寫的程式與伺服器通信。 PHP作為一門特別流行的語言，其效能受到了廣泛關注。lighttpd的FastCGI可組態為使用操作碼快取的方式來有效支援PHP（如Alternative PHP Cache）除此之外，lighttpd還獲得了Python、Perl、Ruby和Lua社群的關注。lighttpd還支援WebDNA和彈性記憶體資料庫系統。此軟體是一款流行的、支援Catalyst和Ruby on Rails網頁框架的網頁伺服器，但並不支援ISAPI。
+
+lighttpd被多個業務量極大的網站使用，如Bloglines和xkcd。[12]在過去，Meebo和YouTube也曾使用lighttpd。[13] 維基媒體基金會也在伺服器上執行lighttpd。[14][15][16][17]
+

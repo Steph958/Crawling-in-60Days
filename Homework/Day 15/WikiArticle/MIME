@@ -1,0 +1,42 @@
+多用途網際網路郵件擴展（英語：Multipurpose Internet Mail Extensions，縮寫：MIME）是一個網際網路標準，它擴展了電子郵件標準，使其能夠支持：
+
+MIME改善了由 RFC 822 轉變而來的 RFC 2822 ，這些舊標準規定電子郵件標準並不允許在郵件消息中使用7位ASCII字符集以外的字符。正因如此，一些非英語字符消息和二進位文件，圖像，聲音等非文字消息原本都不能在電子郵件中傳輸（MIME可以）。MIME規定了用於表示各種各樣的數據類型的符號化方法。此外，在全球資訊網中使用的HTTP協議中也使用了MIME的框架，標準被擴展為網際網路媒體類型。
+
+MIME是通過標準化電子郵件報文的頭部的附加域（fields）而實現的；這些頭部的附加域，描述新的報文類型的內容和組織形式。
+
+MIME版本（MIME-Version），這個頭部域在郵件消息的報文用一個版本號碼來指明消息遵從的MIME規範的版本。目前版本是1.0。
+
+內容類型（Content-Type），這個頭部領域用於指定消息的類型。一般以下面的形式出現。
+
+type有下面的形式。
+
+subtype用於指定type的詳細形式。content-type/subtype配對的集合和與此相關的參數，將隨著時間而增長。為了確保這些值在一個有序而且公開的狀態下開發，MIME使用Internet Assigned Numbers Authority (IANA)作為中心的註冊機制來管理這些值。常用的subtype值如下所示：
+
+此外，尚未被接受為正式數據類型的subtype，可以使用x-開始的獨立名稱（例如application/x-gzip）。vnd-開始的固有名稱也可以使用（例：application/vnd.ms-excel）。
+
+parameter可以用來指定附加的信息，更多情況下是用於指定text/plain和text/htm等的文字編碼方式的charset參數。MIME根據type制定了默認的subtype，當客戶端不能確定消息的subtype的情況下，消息被看作默認的subtype進行處理。Text默認是text/plain，Application默認是application/octet-stream而Multipart默認情況下被看作multipart/mixed。
+
+內容配置（Content-Disposition），原始的MIME只描述郵件內容的結構，並不會處理表現類型的問題。內容配置（Content-Disposition）在RFC 2183中被添加，用來指明MIME的表現類型。MIME的每一部分可以添加下列配置。
+
+Content-Disposition欄位也提供了一些參數。如文件名，文件的創建日期和修改日期等，使郵件客戶端可以保存附件。
+以下是一個示例。
+
+儘管有些郵件客戶端僅在Content-Type的參數中添加了文件名來通信，但這是不推薦的。正確的做法是在Content-Disposition中指定filename或是同時在Content-Type和Content-Disposition中指定name和filename的參數。在HTTP中Content-Disposition: attachment通常用來提示客戶端將響應體作為下載文件，而不是在頁面中展示它。filename參數是默認的下載文件名。
+
+內容傳輸編碼（Content-Transfer-Encoding），這個區域使指定ASCII以外的字符編碼方式成為可能。形式如下：
+
+其中，mechanism的值可以指定為「7bit」，「8bit」，「binary」，「quoted-printable」，「base64」。
+
+7位元ASCII碼。
+
+8位元ASCII碼。
+
+Not only may non-ASCII characters be present but the lines
+are not necessarily short enough for SMTP transport.
+
+因為歐洲的一些文字和ASCII字符集中的某些字符有部分相同。如果郵件消息使用的是這些語言的話，與ASCII重疊的那些字符可以原樣使用，ASCII字符集中不存在的字符採用形如「=??」的方法編碼。這裡「??」需要用將字符編碼後的16進位數字來指定。採用quoted-printable編碼的消息，長度不會變得太長，而且大部分都是ASCII中的字符，即使不通過解碼也大致可以讀懂消息的內容。
+
+base64是一種將二進位的01序列轉化成ASCII字符的編碼方法。編碼後的文本或者二進位消息，就可以運用SMTP等只支持ASCII字符的協議傳送了。Base64一般被認為會平均增加33%的報文長度，而且，經過編碼的消息對於人類來說是不可讀的。
+
+這個值是預留的擴展。
+

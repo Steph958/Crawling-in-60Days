@@ -1,0 +1,31 @@
+Nginx（發音同「engine X」）是非同步框架的網頁伺服器，也可以用作反向代理、負載平衡器和HTTP快取。該軟體由伊戈爾·賽索耶夫（Игорь Сысоев）建立並於2004年首次公開發布[6]。2011年成立同名公司以提供支援[7]。2019年3月11日，Nginx公司被F5 Networks（英語：F5 Networks）以6.7億美元收購[8]。
+
+Nginx是免費的開源軟體，根據類BSD授權條款的條款釋出。一大部分Web伺服器使用Nginx[9]，通常作為負載均衡器。[10]
+
+Nginx可以部署在網路上使用FastCGI指令碼、SCGI處理程式、WSGI應用伺服器或Phusion Passenger（英語：Phusion Passenger）模組的動態HTTP內容，並可作為軟體負載均衡器。[11]
+
+Nginx使用非同步事件驅動的方法來處理請求。Nginx的模組化事件驅動架構[12]可以在高負載下提供更可預測的效能[13]。
+
+Nginx是一款面向效能設計的HTTP伺服器，相較於Apache、lighttpd具有占有記憶體少，穩定性高等優勢。與舊版本（≤ 2.2）的Apache不同，Nginx不採用每客戶機一執行緒的設計模型，而是充分使用非同步邏輯從而削減了上下文排程開銷，所以並行服務能力更強。整體採用模組化設計，有豐富的模組庫和第三方模組庫，組態靈活。
+在Linux作業系統下，Nginx使用epoll事件模型，得益於此，Nginx在Linux作業系統下效率相當高。同時Nginx在OpenBSD或FreeBSD作業系統上採用類似於epoll的高效事件模型kqueue。
+
+根據Netcraft（英語：Netcraft）在2016年11月網路伺服器調查[14]，Nginx被發現是所有「活躍」站點（被調查站點的18.22%）和百萬最繁忙站點（被調查站點的27.83%）中使用次數最多的Web伺服器。根據W3Techs的資料，前100萬個網站中的37.7%，前10萬個網站中的49.7%，以及前10000個網站中的57.0%被使用[15]。據BuiltWith統計，在全球前10000個網站中，有38.2%的網站使用Nginx[16]。維基百科使用Nginx作為其SSL終端代理（英語：SSL termination proxy）[17]。從OpenBSD 5.2版本（2012年11月1日）開始，Nginx成為了OpenBSD基礎系統的一部分，提供了替代Apache 1.3系統的替代方案[18]，但是後來被替換為OpenBSD自己的httpd(8)[19]。
+
+Nginx在官方測試的結果中，能夠支援五萬個並列連接，而在實際的運作中，可以支援二萬至四萬個並列連接。
+
+Nginx的編寫有一個明確目標就是超越Apache Web伺服器的效能[20]。Nginx提供開箱即用的靜態檔案，使用的記憶體比Apache少得多，每秒可以處理大約四倍於Apache的請求[21]。 在低並行下Nginx的效能與Apache相當（有時候還低於），但是在高並行下Nginx能保持低資源低消耗高效能。Nginx的優點還包括：高度模組化的設計，模組編寫簡單，以及設定檔簡潔。
+
+這種效能提升的代價是降低了靈活性，例如能夠以每個檔案為基礎覆蓋系統範圍的存取設定（ Apache使用.htaccess檔案來完成這個工作，而Nginx並沒有內建這樣的功能）[22]。以前，向Nginx添加第三方模組需要使用靜態連結的模組從原始碼重新編譯應用程式。在版本 1.9.11 中部分地克服了這一點，增加了動態模組載入。但是，模組仍然必須與Nginx同時編譯，而不是所有的模組都與這個系統相容——有些需要更老的靜態連結過程[23]。
+
+相比起在Linux下的Nginx，在Windows Server下的Nginx的穩定性較差。而Apache對兩者都有較好的支援。[24]
+
+整體採用模組化設計是Nginx的一個重大特點，甚至http伺服器核心功能也是一個模組。舊版本的Nginx的模組是靜態的，添加和刪除模組都要對Nginx進行重新編譯，1.9.11以及更新的版本已經支援動態模組載入。
+
+截至2017年3月，中國註冊域名總數的9.65%使用Nginx。[25]
+
+截至2018年1月，Nginx服務或者代理了全球30.46%的網站。[26]
+
+自PHP-5.3.3起，PHP-FPM加入到了PHP核心，編譯時加上--enable-fpm即可提供支援。PHP-FPM以守護行程在背景執行，Nginx回應請求後，自行處理靜態請求，PHP請求則經過fastcgi_pass交由PHP-FPM處理，處理完畢後返回。Nginx和PHP-FPM的組合，是一種穩定、高效的PHP執行方式，效率要比傳統的Apache和mod_php高出不少。
+
+PHP-FPM不支援Windows平台，由於沒有fastcgi行程管理器管理php-cgi.exe，因此一旦php-cgi.exe崩潰退出，前端將失去回應，這時Nginx會返回「The page you are looking for is temporarily unavailable. Please try again later.」的錯誤資訊。因此在Windows上用Nginx和php-cgi.exe組合來執行PHP的方式並不可靠，穩定性有待提高。
+

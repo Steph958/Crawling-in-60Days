@@ -1,0 +1,26 @@
+Windows Server 2003是微軟的伺服器作業系統，對應Windows XP。
+
+該產品最初叫作「Windows .NET Server」，後改成「Windows .NET Server 2003」，最終被改成「Windows Server 2003」，於2003年3月28日發布，並在同年四月底上市。
+
+相對於Windows 2000，此版本做了很多改進，特別是：
+
+Windows Server 2003有多種版本，每種都適合不同的商業需求：
+
+用於構建和存放Web應用程式、網頁和XML Web Services。它主要使用IIS 6.0 Web伺服器並提供快速開發和部署使用ASP.NET技術的XML Web services和應用程式。支援雙處理器，最低支援256MB的記憶體。它最高支援2GB的記憶體。
+
+Web版的Server不能用來作列印伺服器用。
+
+沒有發布web版的簡體中文版。
+
+標準的英文名稱：Windows Server 2003 Standard Edition銷售目標是中小型企業，支援檔案和印表機共享，提供安全的Internet連接，允許集中的應用程式部署。支援4個處理器；最低支援256MB的記憶體，最高支援4GB的記憶體。
+
+標準的英文名稱：Windows Server 2003 Enterprise EditionWindows Server 2003企業版與Windows Server 2003標準版的主要區別在於：Windows Server 2003企業版 支援高效能伺服器，並且可以建立電腦叢集，以便處理更大的負荷。通過這些功能實現了可靠性，有助於確保系統即使在出現問題時仍可用。在一個系統或分割區中最多支援八個處理器，八節點群集，最高支援32GB的記憶體（安全模式下為4GB）。
+
+標準的英文名稱：Windows 2003 Server Datacenter Edition 針對要求最進階別的可伸縮性、可用性和可靠性的大型企業或國家機構等而設計的。它是最強大的伺服器作業系統。分為32位元版與64位元版：
+
+微軟於2005年3月30日發布Windows Server 2003的第一個服務包（Service Pack 1）。這個升級為Windows Server 2003使用者提供了很多相似於Windows XP Service Pack 2的功能。這些功能包括：
+
+Microsoft網站提供了完整的SP1更新專案。[10]
+
+Windows Server 2003的Service Pack 2已於2007年上半年正式發布。[11]發布日期最初定為2006年上半年。[12]註：微軟未在Windows Service Pack Road Map網站中更新最後修改日期。2006年6月19日，微軟面向Microsoft Connect使用者提供了Service Pack 2的最初測試版，該版本的內部版本號為2721。而最新的內部版本是2725（Beta 1）。微軟將Service Pack 2描述為「標準」服務包而發布，包含先前發布的安全更新、修補程式、及可靠性和效能方面的改進。[13]  除此之外，Service Pack 2包含Microsoft管理控制台3.0、Windows開發服務（替代遠端安裝服務）、對WPA2的支援與針對IPSec與系統設定公用程式的改進。
+

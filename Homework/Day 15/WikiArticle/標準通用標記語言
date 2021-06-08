@@ -1,0 +1,12 @@
+標準通用標記式語言（Standard Generalized Markup Language，SGML）是現時常用的超文字格式的最高層次標準，是可以定義標記式語言的元語言，甚至可以定義不必採用< >的常規方式。由於它的複雜，因而難以普及。
+
+以下是它的一個例子：
+
+同時它也是一個ISO標準："ISO 8879:1986 Information processing -- Text and office systems -- Standard Generalized Markup Language (SGML)" 
+
+它有非常強大的適應性，也正是因為同樣的原因，導致在小型的應用中難以普及。
+
+HTML和XML同樣衍生於它：XML可以被認為是它的一個子集，而HTML是它的一個應用。
+
+XML的產生就是為了簡化它，以便用於更加通用的目的，比如語意Web。它已經應用於大量的場合，比較著名的有XHTML、RSS、XML-RPC和SOAP。
+

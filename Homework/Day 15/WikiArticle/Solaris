@@ -1,0 +1,34 @@
+Solaris原先是昇陽電腦公司研製的Unix作業系統，在Sun公司被Oracle併購後被稱作Oracle Solaris。目前最新版為Solaris 11。早期的Solaris是由BSDUnix發展而來。這是因為昇陽公司的創始人之一，比爾·喬伊（Bill Joy）來自柏克萊加州大學（U.C.Berkeley）。但是隨著時間的推移，Solaris現在在介面上正在逐漸向System V靠攏。
+
+2005年6月14日，Sun公司將正在開發中的Solaris 11的原始碼以CDDL許可開放，這一開放版本就是OpenSolaris。2010年8月23日，OpenSolaris項目被Oracle中止。2011年11月9日，Solaris 11發布。
+
+Sun的作業系統最初叫做SunOS，SunOS 5.0開始，SUN的作業系統開發開始轉向System V 4，並有了新名字Solaris 2.0；Solaris 2.6以後，SUN刪除了版本號中的「2」，因此，SunOS 5.10叫做Solaris 10。Solaris的早期版本後來又被重新命名為Solaris 1.x。因為「SunOS」這個詞被用做專指Solaris作業系統的核心，因此Solaris被認為是由SunOS、圖形化的桌面計算環境以及它的網路增強部分組成。
+
+Solaris執行在兩個平台：Intel x86及SPARC／UltraSPARC。後者是昇陽工作站使用的處理器。因此，Solaris在SPARC上擁有強大的處理能力和硬體支援，同時Intel x86上的效能也正在得到改善。對兩個平台，Solaris封鎖了底層平台差異，為使用者提供了儘可能一樣的使用體驗。
+
+最新發布的Solaris10包含若干創新技術，包括ZFS，DTrace，Solaris Zones（Container），預測性自癒等。其中一些以往只可能在專業伺服器等具有相關硬體的大型電腦器上才可能得到支援，但Solaris10使得任何一台普通PC都可以具有這些能力。
+
+Solaris支援多種系統架構：SPARC、x86及x64. x64即AMD64及EM64T處理器。在版本2.5.1的時候，Solaris曾經一度被移植到PowerPC架構，但是後來又在這一版本正式發布時被刪去。與Linux相比，Solaris可以更有效地支援對稱多處理器，即SMP架構。Sun同時宣布將在Solaris 10的後續版本中提供Linux執行環境，允許Linux二進位程式直接在Solaris x86和x64系統上執行，目前，這一技術已通過Solaris Zone的一個特殊實現（BrandZ）得到支援。
+
+Solaris傳統上與基於Sun SPARC處理器的硬體體系結構結合緊密，在設計上和市場上經常捆綁在一起，整個軟硬體系統的可靠性和效能也因此大大增強。然而SPARC系統的成本和價格通常要高於PC類的產品，這成為Solaris進一步普及的障礙。可喜的是，Solaris對x86體系結構的支援正得到大大加強，特別是Solaris 10已經能很好地支援x64（AMD64/EM64T）架構。Sun公司已推出自行設計的基於AMD64的工作站和伺服器，並隨機附帶Solaris 10。
+
+早期的Solaris主要用於Sun工作站上。不過，隨著Sun讓Solaris可以免費下載和OpenSolaris的釋出，Solaris/OpenSolaris
+除了作為伺服器／工作站的用途外，已經開始可以作為Desktop用途。雖然現在仍然不普及，且應用程式和裝置驅動的支援尚嫌不足，但這一問題正得到快速改善，未來使用者群朝向一般大眾的情況仍是有很高的可能性的。
+
+目前各大軟體、應用程式廠商對SPARC平台的支援尚算良好，但對x86平台的Solaris多半都不支援。這也是x86使用者面臨的困境之一。
+
+第一個Solaris的桌面環境是OpenWindows。緊接著是Solaris 2.5的CDE。在Solaris 10中，Sun又推出了基於GNOME的Java Desktop System。另外也支援KDE[2]、XFCE、WindowMaker等[3]。
+
+Solaris 11採用GNOME。
+
+Solaris已開放其部分原始碼，但是由於Sun公司的原始碼許可證，Solaris「不是」自由軟體，而OpenSolaris才是[4]。Solaris和OpenSolaris為兩個「不同」的作業系統。
+
+Solaris的大多數原始碼已經在CDDL的許可下在OpenSolaris開源專案中發布[5]。二進位和原始碼目前都可以被下載和許可而無需任何費用。
+Sun的Common Development and Distribution License被選擇用做OpenSolaris的許可，並通過了Open Source Initiative評審和批准，但其授權條款與時下流行的GPL互不相容。
+
+OpenSolaris於2005年6月14日正式啟動，原始碼來自當時的Solaris開發版本。目前OpenSolaris專案已被併吞Sun公司的Oracle中止，由社群發起的Illumos計劃繼承。
+
+Solaris的主要發布版本如下：
+
+
+SunOS仍舊用來稱呼Solaris的核心。SunOS的版本號是以5.{Solaris版本號}來表示。例如，最新的Solaris發布版本，Solaris 10，在SunOS 5.10上執行。Solaris的man手冊是以SunOS為標記的，啟動的時候也顯示它，但是"SunOS"這個詞不再用於Sun的市場文件中。

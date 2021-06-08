@@ -1,0 +1,26 @@
+Windows Server 2016[5]（前稱Windows Server vNext）是微軟推出的第七個Windows Server系列作業系統，它是Windows 10的伺服器版本。它的第一個早期預覽版本（技術預覽版）連同System Center的第一個技術預覽版於2014年10月1日推出[6]。正式版於2016年9月26日推出[7]，並於同年10月12日正式發售[1]。Server 2016沒有和Windows 10同時發布，對此官方解釋稱這是為了在正式版發布前推出更多的技術預覽版以便改善系統的穩定性。
+
+Windows Server 2016具有多種新功能，其中包括：
+
+微軟宣布了新的安裝選項：Nano Server。這是Windows Server的最小足跡安裝選項。它不包括圖形化使用者介面、WoW64（用於支援32位元軟體）和Windows Installer，不支援控制台登錄和本機或遠端桌面連接的登錄。所有管理均通過Windows Management Instrumentation（WMI）和PowerShell遠端執行。微軟工程師Jeffrey Snover稱，Nano Server降低93%VHD（英語：VHD (file format)）大小，92%關鍵安全通告，並比Windows Server減少80%重新啟動。[25][26]
+
+自薩蒂亞·納德拉擔任微軟執行長後，Windows Server和System Center的開發團隊合二為一（以前Server團隊Windows客戶端團隊的合作更加緊密）。另外，Azure團隊也同樣和Windows Server團隊緊密地合作著。[27]
+
+2014年10月1日，微軟推出「Windows Server Technical Preview」，這是Windows Server 2016（當時仍稱vNext）的第一個測試版本，這一版本的目標使用者為企業使用者。第一個技術預覽版本原定於2015年4月15日發布[28]，但後來微軟推出了一個工具導致該版本發布日期延期，直至2015年5月4日第二個技術預覽版本推出[29]。2015年8月19日，Windows Server 2016的第三個預覽版本發布[30]。2015年11月19日，Windows Server 2016的第四個預覽版本發布[31]。2016年4月27日，微軟發布Windows Server 2016的第五個預覽版本[32]。
+
+Windows Server 2016於2016年9月26日正式推出[33][34]，於同年10月12日正式發售[1]。與前代不同的是，Windows Server 2016是根據處理器的核心數而非處理器的數量進行授權，在此之前，BizTalk Server 2013以及SQL Server 2014等就曾採用過這種授權方式[35]。
+
+6.4.9841Technical Preview[6]
+
+10.0.10074Technical Preview 2
+
+10.0.10514Technical Preview 3
+
+10.0.10586Technical Preview 4
+
+10.0.14300Technical Preview 5
+
+10.0.14393RTM
+
+10.0.16299
+

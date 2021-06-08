@@ -1,0 +1,6 @@
+在電腦編程中，資料驅動編程，是一種編程範式，在其中程式語句描述要匹配的資料，和對它需要做的處理，程式本身不定義選取資料的一序列檔案操作步驟[1]。資料驅動語言的標準例子是文字處理語言sed和AWK[1]，在其中資料是輸入流中的一序列的行，因而它們也叫面向行的語言，而模式匹配（英語：Pattern matching）主要通過正規表示式或行號來完成。
+
+資料驅動編程類似於事件驅動編程，儘管它們典型的應用於不同領域，二者都被結構化為模式匹配和結果處理，並通常由主迴圈來實現。條件/動作模式也類似於面向切面編程，在這裡當到達一個連接點（英語：join point）（條件）時，執行一個切入點（英語：pointcut）（動作）。
+
+https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch09s01.html （頁面存檔備份，存於網際網路檔案館）  "The important part is moving program logic away from hardwired control structures and into data."
+

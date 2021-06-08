@@ -1,0 +1,4 @@
+Cherokee是一個高效能、靈活、易用的開源Web伺服器軟體，可以在Linux、Solaris、Mac OS X，和Windows等作業系統上執行，除了其他Web伺服器軟體具有的功能外，Cherokee包含了一個名為cherokee-admin的Web組態介面，可以輕易的搭建Web伺服器。
+
+Cherokee支援下列動態手稿語言與介面技術：
+

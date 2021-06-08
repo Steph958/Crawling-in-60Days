@@ -1,0 +1,81 @@
+Google Chrome是由Google開發的免費網頁瀏覽器[9]。Chrome是化學元素「鉻」的英文名稱，過去也用Chrome稱呼瀏覽器的外框[10][11][12][13]。Chrome相應的開放原始碼計劃名為Chromium[14][15]，而Google Chrome本身是非自由軟體，未開放全部原始碼[9][16]。
+
+Chrome程式碼是基於其他開放原始碼軟體所撰寫，包括Apple WebKit和Mozilla Firefox，並開發出稱為「V8」的高效能JavaScript引擎[17]。Google Chrome的整體發展目標是提升穩定性、速度和安全性，並創造出簡單且有效率的使用介面[18]。CNET旗下的Download.com網站評出的2008年6月最佳Windows應用程式，其中Google Chrome排名首位[19]。
+
+據StatCounter統計，截至2020年1月，Google Chrome在全球桌面瀏覽器中有69.89%的占有率[20]。
+
+Chrome 50結束了對Windows XP與Windows Vista系統的支援[21]，這兩個系統上的最後版本為49.0.2623.112[22]。
+
+Google執行長艾立克·史密特有六年時間都在反對開發網頁瀏覽器。他表示：「當時Google是一家小公司，我不想在瀏覽器大戰中輸得鼻青臉腫。」但是經過聯合創始人謝爾蓋·布林和賴利·佩吉聘用了幾位Mozilla Firefox開發人員演示Chrome的原型後，史密特承認：「這太好了，我不得不改變我的想法。」[23][24][25][26]
+
+發布公告原本預定於2008年9月3日舉行，並將寄給記者和部落客一則解說新瀏覽器功能的漫畫，該漫畫由史考特·邁克勞德（英語：Scott McCloud）所繪製[27]。由於要送往歐洲的信件提早寄出，因此Google Blogoscoped（英語：Google Blogoscoped）部落格的德國作者菲利普·藍森（Philipp Lenssen）[28]在2008年9月1日收到漫畫後就掃描並放上自己的網站[29]。隨後Google就將這則漫畫放到Google Books[30]，並在自家的部落格中說明了提早釋出的原因[18]。
+
+2008年9月1日，Google官方部落格撰文說，將於第二天在超過100個國家同時發布Chrome的測試版[31]。2008年9月2日，Google官方部落格宣布Chrome測試版已經開放下載。首次發布的第一個測試版本僅提供43種語言版本，並只適用於Microsoft Windows XP SP2以上版本[32]。
+
+Chrome的使用率迅速上升約1%[33][34][35][36]。在最初的激增之後，使用率下降，直到2008年10月跌至0.69%的低點。然後再次開始上升，至2008年12月，Chrome再次超過了1%的門檻[37]。
+
+2009年6月4日，正式發布首個在Mac OS X和Linux作業系統的開發者預覽版本，官方部落格聲稱由於遺漏許多功能，只作為早期回饋用途而非日常使用[38]，同年12月，發布第一個同時支援Windows，Mac OS X和Linux作業系統的測試版[39][40]。2010年5月25日，發布的5.0版是第一個同時支援該三個作業系統的穩定版本[41]。
+
+Chrome是2010年提供給歐洲經濟區Microsoft Windows使用者的十二種瀏覽器其中之一[42]。
+
+在2012年2月7日，Google發布了Chrome於Android的測試版[43]，該軟體只能在Android 4.0以上系統上運行。6月28日，Chrome的Android版本正式在Google Play上釋出。6月29日，Chrome的iOS版本在App Store上架，可免費安裝，標誌著Google Chrome全面進軍行動平台。
+
+2013年1月11日，Chrome Beta for Android在Google Play上架[44]。
+
+目前，「Google Chrome」存在四個版本分支：
+
+釋出首日佔有率達3％，其後一度跌至1％，但稍後仍緩步上升。2009年Google Chrome佔有率共上升3.60％（取各大機構平均值），成為全年佔有率上升幅度最大的網頁瀏覽器。[47]2010年2月，統計數據顯示Google Chrome在瀏覽器市場佔有率為6.16％（取各大機構平均值），超越老字號Opera與Safari。截至2011年1月，統計數據顯示Google Chrome的市場佔有率達10.70％，僅次於Internet Explorer和Mozilla Firefox，排名第3，較2010年12月上升了0.72個百分點。除2010年7月曾下跌0.08％外，Google Chrome在每月統計的市場佔有率未曾下跌。2011年7月11日，Chrome在英國的市場份額達到22.12%，而Firefox僅占21.65%，這是Chrome首次在地區的統計中超越Firefox。[48]2012年5月21日，Chrome在全球範圍內占有率達到33%，超越IE位居首位[49]，而此紀錄持續時間至今，仍然一直上升，紀錄不斷，2018年7月下旬Google Chrome的市場占有率達到67.6%。[50]
+
+首個版本
+
+首個穩定版本
+
+Android版本：
+
+iOS版：
+
+Android版本：
+
+iOS版本：
+
+Android版本：
+
+iOS版本：
+
+支援Windows上的DirectWrite；
+
+Android版本：
+
+iOS版本：
+
+Android版本：
+
+iOS版本：
+
+Android版本：
+
+iOS版本：
+
+Android版本：
+
+Android版本：
+
+Android版本：
+
+Android版本：
+
+最新穩定版本
+
+最新測試版本
+
+最新開發版本
+
+
+
+Chrome從電腦版本v83和Android版本v85起加入對DNS over HTTPS的支援[71]。
+
+從7.0版本的開發版本起，「Google Chrome」（除正式版本外）加入研究室功能，將未完成或未完善的功能收集供使用者測試，此前所有測試功能都需要使用指令碼啟用。
+由7.0至8.0（62681）版本，使用者可經「about:labs」進入研究室。從8.0（62682）版本起易名為「about:flags」或「chrome://flags」[90]。
+
+以下為將加入Chrome的功能（目前是獨立的開源項目）；除了用於Chrome內，亦同時可以整合到其他軟體。
+

@@ -1,0 +1,20 @@
+Windows Server 2008是微軟的一個伺服器作業系統，繼承Windows Server 2003[3][4]。Windows Server 2008在進行開發及測試時的代號為Windows Server "Longhorn"。
+
+Windows Server 2008是一套和Windows Vista（代號為Longhorn）相對應的伺服器作業系統，兩者擁有很多相同功能。與Windows 2000的Professional版和Server版一樣，兩者在開發時共享大多數的程式碼，連Service Pack皆可共享；Vista和Server 2008、XP和Server 2003間存在相似的關係。（XP和Server 2003的代號分別為Whistler及Whistler Server）
+
+Windows Server 2008的測試版本Server Longhorn Beta 1於2005年7月27日發布、Beta 2版本則於2006年5月23日公布，2007年4月發布了功能發展齊備的Beta 3版本。Release Candidate 0（下稱RC）在2007年9月24日[5] 公布。RC 1發布在2007年12月25日。，這是推出市面前最後的一個測試版本。[3] 正式版2008年2月27日發布，版本號為6.0 (Build 6001)。在Windows Server 2008發布時，即已包含了SP1。2009年5月14日發布整合SP2的版本。
+
+2009年9月28日發布Windows Server 2008 R2。該系統為全新開發，和Windows Server 2008僅是名稱相像而不像Windows Server 2003 R2那樣僅僅是在Windows Server 2003的基礎上附加一些功能，且僅有64位元版本。
+
+大多數的Windows Server 2008都同時擁有64bit和32bit兩個版本，Windows Server 2008 for Itanium-based Systems支援IA-64處理器，IA-64版本被設計用來處理高工作量的工作，比如資料操作或者處理企業核心業務流程。但是IA-64版本沒有對檔案伺服器或者多媒體伺服器進行最佳化。微軟宣稱Windows Server 2008是該公司最後一個支援32bit的伺服器作業系統，從Windows Server 2008 R2起只支援64位元。下面是Windows Server 2008版本的列表，及微軟公布的參考售價。同時也延續了Windows Server 2003的版本命名方式。
+
+其中標準版、企業版及資料中心版若選購不含Hyper-V的版本時，則各減少28美元。
+
+Windows Server 2008的核心編碼與Windows Vista一樣， 因此它包含有許多同樣的改進。當中最引人注意的地方是它嶄新的安裝模式：它在安裝時允許伺服器的管理員選擇安裝整個伺服器軟體，又或是只安裝「伺服器核心」（Server Core）。
+
+「伺服器核心」是一種回復到從前的安裝方式，沒有使用者圖形介面，所有的設定與維護全都是由指令碼控制，或者是利用Microsoft Management Console作遠端連線操作。"伺服器核心"同時也不會內建.NET Framework，Internet Explorer及其他許多跟核心伺服器不相干的功能。一個「伺服器核心」主機可以以四個身分來控制網域控制者、DNS伺服器、DHCP伺服器及檔案伺服器。
+
+Windows Server 2008的系統需求：[7]
+
+微軟公司為推廣Windows Server 2008，特地設立了多個架設了不同版本Windows Server 2008的虛擬實驗室，讓有興趣的管理員申請每段90分鐘的時段來測試伺服器的功能[8]。
+

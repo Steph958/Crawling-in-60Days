@@ -1,0 +1,12 @@
+SPDY（發音如英語：speedy），一種開放的網路傳輸協定，由Google開發，用來傳送網頁內容。基於傳輸控制協定（TCP）的應用層協定。SPDY也就是HTTP/2的前身。Google最早是在Chromium中提出的SPDY協定[1]。被用於Google Chrome瀏覽器中來存取Google的SSL加密服務。SPDY並不是首字母縮略字，而僅僅是"speedy"的縮寫。SPDY現為Google的商標[2]。HTTP/2的關鍵功能主要來自SPDY技術，換言之，SPDY的成果被採納而最終演變為HTTP/2。
+
+SPDY並不是一個標準協定，但SPDY的開發組推動SPDY成為正式標準，而成為了網際網路草案[3]。後來SPDY未能單獨成為正式標準，不過SPDY開發組的成員全程參與了HTTP/2的制定過程。Google Chrome[4]、Mozilla Firefox、Safari、Opera、Internet Explorer[5]等主要瀏覽器均已經或曾經支援SPDY協定。SPDY協定類似於HTTP，但旨在縮短網頁的載入時間和提高安全性。SPDY協定通過壓縮、多路復用和優先級來縮短載入時間[1]。HTTP/2協定完成之後，Google認為SPDY可以功成身退了[6]，於是最終Google Chrome淘汰對SPDY的支援，全面改為採用HTTP/2。
+
+設計SPDY的目的在於降低網頁的載入時間[7]。通過優先級和多路復用，SPDY使得只需要建立一個TCP連接即可傳送網頁內容及圖片等資源[1][8]。SPDY中廣泛應用了TLS加密，傳輸內容也均以gzip或DEFLATE格式壓縮（與HTTP不同，HTTP的頭部並不會被壓縮）。另外，除了像HTTP的網頁伺服器被動的等待瀏覽器發起請求外，SPDY的網頁伺服器還可以主動推播內容[9]。
+
+SPDY並不用於取代HTTP，它只是修改了HTTP的請求與應答在網路上傳輸的方式[1]；這意味著只需增加一個SPDY傳輸層，現有的所有伺服器端應用均不用做任何修改。
+
+當使用SPDY的方式傳輸，HTTP請求會被處理、標記簡化和壓縮。比如，每一個SPDY端點會持續跟蹤每一個在之前的請求中已經傳送的HTTP報文頭部，從而避免重複傳送還未改變的頭部。而還未傳送的報文的資料部分將在被壓縮後被傳送。
+
+2015年9月，Google 宣布了計劃，移除對SPDY的支援，擁抱 HTTP/2[18]，並將在Chrome 51中生效。[19][20]
+

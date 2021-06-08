@@ -1,0 +1,69 @@
+在Unix和類Unix系統中，如同某些程式語言介面一樣，標準串流是當一個電腦程式執行時，在它和它的環境間（典型為終端），事先連接的輸入和輸出頻道。這三個I/O連結稱作「標準輸入」、「標準輸出」和「標準錯誤輸出」。
+
+在Unix之前的作業系統，程式必須明確指出連結到合適的輸入和輸出資料。對這當中的許多系統而言，這牽涉一些錯綜複雜而又與特定作業系統相關的事，是一件嚇人的程式設計挑戰。如控制環境設定、存取一個檔案表格、決定區域資料集、和決定讀卡機、磁帶、磁碟、列印機、打卡機或互動式終端機。
+
+Unix 提供許多開創產的進步，其中之一是提供 抽象裝置 ：它免除了程式須要知道或在意它正與哪個裝置溝通。 Unix 藉由資料串流的概念來消除這種複雜：一種資料位元組的有序序列，直到讀到檔案結尾。程式員亦可依需求寫入而無須宣告寫入多少或如何組織。
+
+另一個 Unix 突破為預設自動連結輸入和輸出－程式（和程式設計師）不用為了典型輸入－處理－輸出程式建立輸入和輸出。相對地，之前作業系統通常要求一些－有時複雜－工作控制語言（Job Control Language（英語：Job Control Language））以建立連結，或者，相者近似於協調的責任。
+
+既然 Unix 提供標準串流，Unix C 的執行環境被要求要支援它。結果不管什麼作業系統， C 的執行環境（及 C 的衍生）都提供類似功能。
+
+標準輸入是指輸入至程式的資料（通常是檔案）。程式要求以讀(read)操作來傳輸資料。並非所有程式都要求輸入。如dir或ls程式（顯示一個目錄中的檔名）運行時不用任何輸入。
+
+除非重導向，輸入是預期由 鍵盤取得的。
+
+標準輸入的檔案描述子為 0 （零）；在POSIX <unistd.h> 的定義是 STDIN_FILENO；相對應的 <stdio.h> 變數為 FILE* stdin ；類似地， <iostream> 變數為 std::cin 。
+
+標準輸出是指程式寫輸出資料的串流。程式要求資料傳輸使用寫的運算。並非所有程式都要求輸出。如mv或ren程式在成功完成時是沈默的。
+
+除非重導向，輸出為 終端。
+
+標準輸出的檔案描述子為 1 （一）。POSIX <unistd.h> 定義是 STDOUT_FILENO；相對應的 <stdio.h> 變數為 FILE* stdout ；類似地， <iostream> 變數為 std::cout 。
+
+標準錯誤輸出是另一輸出串流，用於輸出錯誤訊息或診斷。它獨立於標準輸出，且可以分別被重導。常見的目的則為啟始這個程式的終端，即使其標準輸出被重導亦如此。例如：一個管線中的程式的輸出被重導到下一個程式，但錯誤訊息仍然直接流向文字終端機。
+
+把標準輸出和標準錯誤輸出導到相同的目的地，如文字終端，是可以（且正常）的。訊息會以如同程式寫入的順序來出現，除非使用了緩衝。（例如，一個常見狀況是，當標準錯誤串流未使用緩衝，但標準輸出串流使用了緩衝；在這種情況下，如果標準輸出的緩衝區還沒滿的話，較遲寫到標準錯誤的文字可能會較早出現在終端。
+
+標準錯誤輸出的檔案描述子為 2 ；POSIX <unistd.h> 定義為 STDERR_FILENO；相對的 <stdio.h> 變數 FILE* stderr。C++ <iostream> 標準表頭檔提供兩個相關的變數： std::cerr 和 std::clog，前者用於無緩衝的而後者使用和其它 C++ 串流相同的緩衝機制。
+
+大部分殼程式允許使用
+
+將標準輸出和標準錯誤輸出重導向到相同的檔案。
+
+Bourne-類殼程式允許使用
+
+將標準錯誤輸出重導向到標準輸出的目的。
+
+Fortran 提供類於 Unix 檔案描述子：UNIT=5 用於 stdin 、 UNIT=6 用於 stdout 和 UNIT=0 用於 stderr 。
+
+ALGOL 60因沒有標準檔案存取而受批評。
+
+ALGOL 68 的輸入和輸出機制合起來稱為 transput 。 Cornelis H. A. Koster（英語：Cornelis H. A. Koster） coordinated the definition of the transput standard.  這標準包含：stand in、stand out、stand error和stand back。 
+
+
+範例：
+在 C語言 中，標準輸入、標準輸出和標準錯誤輸出分別連接到已存的 Unix 檔案描述子 0 、1 和 2。
+
+在Java中, 標準串流被稱為 System.in（標準輸入）、System.out（標準輸出）和 System.err（標準錯誤）。
+
+在 C# 和其它 .NET 語言中，標準串流為 System.Console.In （標準輸入）、System.Console.Out （標準輸出）和System.Console.Error （標準錯誤）。stdin 和 stdout 的基本讀寫能力可以直接透過 System.Console 來存取（如 System.Console.WriteLine() 可以取代 System.Console.Out.WriteLine() ）。
+
+
+注意， System.Console.In, System.Console.Out 和 System.Console.Error 是 System.IO.TextReader (stdin) 和 System.IO.TextWriter (stdout, stderr) 的物件，只允許存取底層基於檔案的標準串流。存取二位元標準串流要分別經由  System.Console.OpenStandardInput(), System.Console.OpenStandardOutput() 和 System.Console.OpenStandardError() 所傳回的System.IO.Stream。
+
+當使用 System.Diagnostics.Process 類時，可以使用
+StandardInput、StandardOutput 和 StandardError 屬性來存取程式的標準串流。
+
+Console 並非指 Dos 的命令列視窗。
+
+圖形使用者介面很少使用標準串流。
+重導圖形使用者介面或建立管線是不實用的。
+最近似的大概是從一個程式剪下（或複製）再貼到另一個。
+既然需要人工使用者的運作，移動大量的貼上就不會特別有效率。
+一個值得一提的例外為dwm鋪磚式視窗管理器（tiling window manager（英語：tiling window manager）），其會將匯入標準輸入的資料顯示到狀態列。
+
+一些原本在 Unix 上的圖形使用者介面程式仍會寫錯誤訊息到標準錯誤輸出。
+其它可能會從標準輸入取得檔案，如許多 Unix 媒體播放程式。
+
+GTK-Server（英語：GTK-Server） 可以使用標準輸入為溝通介面，以便互動式程式能理解圖形使用者介面程式。
+

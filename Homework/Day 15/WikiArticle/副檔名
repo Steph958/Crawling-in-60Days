@@ -1,0 +1,10 @@
+副檔名（Filename Extension，或作延伸檔名、字尾名）是早期作業系統（如VMS／CP/M／DOS等）用來標誌檔案格式的一種機制。以DOS來說，一個副檔名是跟在主檔名後面的，由一個分隔符號分隔。在一個像「example.txt」的檔名中，example是主檔名，txt為副檔名，表示這個檔案是一個純文字檔案，句號「.」就是主檔名與副檔名的分隔符號。
+
+DOS作業系統（包括Windows 3.x）把副檔名限制在3個字元以內。個人電腦（PC）自微軟推出Windows95開始，在其他Windows作業系統上，無論是16／32 位元的Windows 95、Windows 98、Windows ME還是32位元的Windows NT、Windows 2000、Windows XP、Windows 2003和Windows Vista、Windows 7的FAT32檔案系統中包含有一個介面水平的修正，使得副檔名的字數可以達到256個英文字元（長檔名），但是在系統層面，仍然保留3個字母的命名方式，這對很多使用者來說都是不可見的。NTFS檔案系統則沒有這種限制。（但NTFS不適用於95、98和ME）
+
+在長檔名的狀態下，檔案的副檔名可以根據殼層（shell）或瀏覽器的設定表示為顯示的或隱藏的。這也使得有心傳播電腦病毒或蠕蟲病毒的惡意使用者得以將LOVE-LETTER-FOR-YOU.TXT.vbs或JustForYou.TXT.exe偽裝成看起來像是無害的純文字檔案（LOVE-LETTER-FOR-YOU.TXT或JustForYou.TXT），得以欺騙目標使用者。如果檔案副檔名是隱藏的話（通常微軟作業系統預設為隱藏的），那麼這個VBScript檔案或帶有電腦病毒的執行檔就有可能欺騙到使用者在毫無防備下開啟並執行。
+
+這種命名法有著很大的缺陷，甚至安全的缺陷，所以某些作業系統已經不再遵循副檔名的規範，而是採用更精確的檔案魔術編號（magic number）來判斷檔案類型（參見UNIX／Linux系統）[來源請求]。不過Windows系列的作業系統即使是最新的Windows 10都依然保持這種命名格式。
+
+副檔名更重要的作用是讓系統決定當使用者想打開這個檔案的時候用哪種軟體執行，如Windows系統中exe檔案是可執行檔，doc檔案預設用Microsoft Word打開的Word檔案。
+

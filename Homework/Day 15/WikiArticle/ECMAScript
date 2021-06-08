@@ -1,0 +1,16 @@
+ECMAScript是一種由Ecma國際（前身為歐洲電腦製造商協會）在標準ECMA-262中定義的手稿語言規範。這種語言在全球資訊網上應用廣泛，它往往被稱為JavaScript或JScript，但實際上後兩者是ECMA-262標準的實作和擴充。
+
+ECMAScript是由網景的布蘭登·艾克開發的一種手稿語言的標準化規範；最初命名為Mocha，後來改名為LiveScript，最後重新命名為JavaScript[1]。1995年12月，昇陽與網景聯合發表了JavaScript[2]。1996年11月，網景公司將JavaScript提交給歐洲電腦製造商協會進行標準化。ECMA-262的第一個版本於1997年6月被Ecma組織採納。ECMAScript是由ECMA-262標準化的手稿語言的名稱。
+
+儘管JavaScript和JScript與ECMAScript相容，但包含超出ECMAScript的功能[3]。
+
+2004年6月Ecma組織發表了ECMA-357標準，它是ECMAScript的一個擴延，也被稱為E4X（ECMAScript for XML）。
+
+許多應用程式支援ECMAScript，尤其是網頁瀏覽器。下列表格列出了目前版本的軟體與ECMAScript最新版本的相容性。
+
+該測試的內容代管在官方儲存庫 https://github.com/tc39/test262（頁面存檔備份，存於網際網路檔案館） 中，也可以在 https://v8.github.io/test262/website/default.html（頁面存檔備份，存於網際網路檔案館） 和 https://bakkot.github.io/test262-web-runner/（頁面存檔備份，存於網際網路檔案館） 上存取最新的Web瀏覽器測試套件工具。官方儲存庫還指向由社區維護的其他項目測試套件，以測試其他例如 Node.js 的 ECMAScript / JavaScript 環境。
+
+
+
+
+

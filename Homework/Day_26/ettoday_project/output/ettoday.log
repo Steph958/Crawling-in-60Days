@@ -1,0 +1,270 @@
+2021-06-19 21:47:02 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: ettoday_project)
+2021-06-19 21:47:02 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-19 21:47:02 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-19 21:47:02 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'ettoday_project',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/ettoday.log',
+ 'NEWSPIDER_MODULE': 'ettoday_project.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['ettoday_project.spiders']}
+2021-06-19 21:47:02 [scrapy.extensions.telnet] INFO: Telnet Password: 2e21b6d140759e74
+2021-06-19 21:47:02 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-19 21:47:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-19 21:47:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-19 21:47:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-19 21:47:02 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2021-06-19 21:47:02 [scrapy.core.engine] INFO: Spider opened
+2021-06-19 21:47:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-19 21:47:02 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-19 21:47:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/robots.txt> (referer: None)
+2021-06-19 21:47:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201004/1824032.htm> (referer: None)
+2021-06-19 21:47:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201004/1824032.htm>
+{'content': ['記者蕭羽耘／台北報導',
+             '這個周末將迎來國慶大會，2020年籌備委員會規劃三大亮點，一早空軍「雷虎小組」軍機分列式表演，將開放500民眾觀禮，晚間還有台南漁光島長達33分鐘的煙火秀，以及總統府建築投影光雕，系列活動屆時將讓民眾「大飽眼福」。',
+             '國慶日系列活動吸睛，凱道一早舉行大典，將由空軍「雷虎小組」進行軍機分列式表演，陸軍的CH-47直升機和空軍的UH-60M直升機，也會先後飛越總統府上空，現場開放500名民眾觀禮。',
+             '由於近期共機頻擾台，導致24日國慶預演時，戰機轟轟作響讓民眾恐慌，當時總統蔡英文甚至發文一解誤會，「今早台北市區的鬧鐘有點不一樣，這是國慶預演戰機飛行的聲音。」',
+             '國慶晚間重頭戲還有煙火與總統府光雕，國慶煙火選在台南漁光島施放，總計長達33分鐘、共1萬7000發，為讓民眾有最佳的觀賞煙火體驗，台南市政府規劃多個場域，包括主舞台的安平戀愛廣場，副舞台的觀夕平台、1661台灣船園區、四鯤鯓（龍崗天橋停車場）等4個場地。',
+             '至於光雕部分，由文化總會參與設計，以總統府為背景投放「口罩」、「豬肉」等圖樣，欲傳達這些成功的「台灣模式」，且象徵在動盪不安的國際情勢中，台灣仍能在黑暗中發出明亮的光，為國人指引方向，屹立風雨中守護國人，相當吸睛。'],
+ 'title': '雙十國慶節目三大亮點曝光\u3000內行攻略看這裡 | ETtoday政治新聞 | ETtoday新聞雲'}
+2021-06-19 21:47:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201009/1826868.htm> (referer: None)
+2021-06-19 21:47:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201009/1826868.htm>
+{'content': ['記者許展溢／台北報導',
+             '國慶假期到阿里山國家森林遊樂區入園半票優惠外，林務局嘉義林區管理處指出，也推出親子活動，雙十連假首日（9日)至阿里山姊妹潭體驗「為森林上色」，在透明小屋中一起盡情揮灑畫筆上色，與森林、湖畔相互輝映，打造阿里山裝置藝術，還有加碼秋日限定禮品、手做阿里山石膏植拓畫，將阿里山的美好帶回家。',
+             '嘉義林管處處長張岱表示，秋天的阿里山是最溫暖的顏色，今年特別在如夢似幻的妹潭打造透明彩繪小屋，邀請民眾共筆，繽紛顏料堆疊於透明牆面，看出去與妹潭的湖光山色、紅檜天然下種林的美景中相互輝映，創造阿里山新裝置藝術。',
+             '嘉義林管處指出，除了手繪活動，當日還有「植拓手作」定格植物美好瞬間，由達人現場教學，利用石膏的特性將植物封存；特別以阿里山採集到的乾燥植物作為素材，參加者可以挑選自己喜歡的元素，創作獨一無二的植物手作，帶走專屬阿里山秋日紀念。活動共分上午（9-12時）、下午（13-16時）2場次，限定名額各30組。',
+             '嘉義林管處提醒，本次活動採KKTIX購票平台，為提倡攜家帶眷，親子票一大一小（12歲以下）與全票同價只要500元，而有身心障礙者採半價優惠250元，入場還可兌換「秋季限定好禮」及「限量拍立得」。阿里山已邁入秋裝，來場阿里山之旅，日間捕捉青楓及櫻花葉轉紅的美景、傍晚追逐日落雲海，搭配「秋季彩繪森林」活動，不管是親子同樂、還是好友揪團一起都適合。'],
+ 'title': '阿里山遊樂區門票半價\u3000還要送「秋季限定好禮、限量拍立得」 | ETtoday生活新聞 | ETtoday新聞雲'}
+2021-06-19 21:47:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-19 21:47:03 [scrapy.extensions.feedexport] INFO: Stored xml feed (2 items) in: ./output/ettoday.xml
+2021-06-19 21:47:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 717,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 49310,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 0.626069,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 19, 13, 47, 3, 108239),
+ 'httpcompression/response_bytes': 242126,
+ 'httpcompression/response_count': 3,
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 5,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2021, 6, 19, 13, 47, 2, 482170)}
+2021-06-19 21:47:03 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-06-19 21:49:32 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: ettoday_project)
+2021-06-19 21:49:32 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-19 21:49:32 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-19 21:49:32 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'ettoday_project',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/ettoday.log',
+ 'NEWSPIDER_MODULE': 'ettoday_project.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['ettoday_project.spiders']}
+2021-06-19 21:49:32 [scrapy.extensions.telnet] INFO: Telnet Password: e4f8564597963d07
+2021-06-19 21:49:32 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-19 21:49:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-19 21:49:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-19 21:49:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-19 21:49:33 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2021-06-19 21:49:33 [scrapy.core.engine] INFO: Spider opened
+2021-06-19 21:49:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-19 21:49:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-19 21:49:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/robots.txt> (referer: None)
+2021-06-19 21:49:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201004/1824032.htm> (referer: None)
+2021-06-19 21:49:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201004/1824032.htm>
+{'content': ['記者蕭羽耘／台北報導',
+             '這個周末將迎來國慶大會，2020年籌備委員會規劃三大亮點，一早空軍「雷虎小組」軍機分列式表演，將開放500民眾觀禮，晚間還有台南漁光島長達33分鐘的煙火秀，以及總統府建築投影光雕，系列活動屆時將讓民眾「大飽眼福」。',
+             '國慶日系列活動吸睛，凱道一早舉行大典，將由空軍「雷虎小組」進行軍機分列式表演，陸軍的CH-47直升機和空軍的UH-60M直升機，也會先後飛越總統府上空，現場開放500名民眾觀禮。',
+             '由於近期共機頻擾台，導致24日國慶預演時，戰機轟轟作響讓民眾恐慌，當時總統蔡英文甚至發文一解誤會，「今早台北市區的鬧鐘有點不一樣，這是國慶預演戰機飛行的聲音。」',
+             '國慶晚間重頭戲還有煙火與總統府光雕，國慶煙火選在台南漁光島施放，總計長達33分鐘、共1萬7000發，為讓民眾有最佳的觀賞煙火體驗，台南市政府規劃多個場域，包括主舞台的安平戀愛廣場，副舞台的觀夕平台、1661台灣船園區、四鯤鯓（龍崗天橋停車場）等4個場地。',
+             '至於光雕部分，由文化總會參與設計，以總統府為背景投放「口罩」、「豬肉」等圖樣，欲傳達這些成功的「台灣模式」，且象徵在動盪不安的國際情勢中，台灣仍能在黑暗中發出明亮的光，為國人指引方向，屹立風雨中守護國人，相當吸睛。'],
+ 'title': '雙十國慶節目三大亮點曝光\u3000內行攻略看這裡 | ETtoday政治新聞 | ETtoday新聞雲'}
+2021-06-19 21:49:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201009/1826868.htm> (referer: None)
+2021-06-19 21:49:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201009/1826868.htm>
+{'content': ['記者許展溢／台北報導',
+             '國慶假期到阿里山國家森林遊樂區入園半票優惠外，林務局嘉義林區管理處指出，也推出親子活動，雙十連假首日（9日)至阿里山姊妹潭體驗「為森林上色」，在透明小屋中一起盡情揮灑畫筆上色，與森林、湖畔相互輝映，打造阿里山裝置藝術，還有加碼秋日限定禮品、手做阿里山石膏植拓畫，將阿里山的美好帶回家。',
+             '嘉義林管處處長張岱表示，秋天的阿里山是最溫暖的顏色，今年特別在如夢似幻的妹潭打造透明彩繪小屋，邀請民眾共筆，繽紛顏料堆疊於透明牆面，看出去與妹潭的湖光山色、紅檜天然下種林的美景中相互輝映，創造阿里山新裝置藝術。',
+             '嘉義林管處指出，除了手繪活動，當日還有「植拓手作」定格植物美好瞬間，由達人現場教學，利用石膏的特性將植物封存；特別以阿里山採集到的乾燥植物作為素材，參加者可以挑選自己喜歡的元素，創作獨一無二的植物手作，帶走專屬阿里山秋日紀念。活動共分上午（9-12時）、下午（13-16時）2場次，限定名額各30組。',
+             '嘉義林管處提醒，本次活動採KKTIX購票平台，為提倡攜家帶眷，親子票一大一小（12歲以下）與全票同價只要500元，而有身心障礙者採半價優惠250元，入場還可兌換「秋季限定好禮」及「限量拍立得」。阿里山已邁入秋裝，來場阿里山之旅，日間捕捉青楓及櫻花葉轉紅的美景、傍晚追逐日落雲海，搭配「秋季彩繪森林」活動，不管是親子同樂、還是好友揪團一起都適合。'],
+ 'title': '阿里山遊樂區門票半價\u3000還要送「秋季限定好禮、限量拍立得」 | ETtoday生活新聞 | ETtoday新聞雲'}
+2021-06-19 21:49:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-19 21:49:33 [scrapy.extensions.feedexport] INFO: Stored json feed (2 items) in: ./output/ettoday.json
+2021-06-19 21:49:33 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 717,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 48885,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 0.508103,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 19, 13, 49, 33, 780152),
+ 'httpcompression/response_bytes': 243052,
+ 'httpcompression/response_count': 3,
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 5,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2021, 6, 19, 13, 49, 33, 272049)}
+2021-06-19 21:49:33 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-06-19 21:50:11 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: ettoday_project)
+2021-06-19 21:50:11 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-19 21:50:11 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-19 21:50:11 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'ettoday_project',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/ettoday.log',
+ 'NEWSPIDER_MODULE': 'ettoday_project.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['ettoday_project.spiders']}
+2021-06-19 21:50:11 [scrapy.extensions.telnet] INFO: Telnet Password: cd479d62e013be90
+2021-06-19 21:50:11 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-19 21:50:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-19 21:50:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-19 21:50:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-19 21:50:11 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2021-06-19 21:50:11 [scrapy.core.engine] INFO: Spider opened
+2021-06-19 21:50:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-19 21:50:11 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-19 21:50:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/robots.txt> (referer: None)
+2021-06-19 21:50:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201004/1824032.htm> (referer: None)
+2021-06-19 21:50:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201004/1824032.htm>
+{'content': ['記者蕭羽耘／台北報導',
+             '這個周末將迎來國慶大會，2020年籌備委員會規劃三大亮點，一早空軍「雷虎小組」軍機分列式表演，將開放500民眾觀禮，晚間還有台南漁光島長達33分鐘的煙火秀，以及總統府建築投影光雕，系列活動屆時將讓民眾「大飽眼福」。',
+             '國慶日系列活動吸睛，凱道一早舉行大典，將由空軍「雷虎小組」進行軍機分列式表演，陸軍的CH-47直升機和空軍的UH-60M直升機，也會先後飛越總統府上空，現場開放500名民眾觀禮。',
+             '由於近期共機頻擾台，導致24日國慶預演時，戰機轟轟作響讓民眾恐慌，當時總統蔡英文甚至發文一解誤會，「今早台北市區的鬧鐘有點不一樣，這是國慶預演戰機飛行的聲音。」',
+             '國慶晚間重頭戲還有煙火與總統府光雕，國慶煙火選在台南漁光島施放，總計長達33分鐘、共1萬7000發，為讓民眾有最佳的觀賞煙火體驗，台南市政府規劃多個場域，包括主舞台的安平戀愛廣場，副舞台的觀夕平台、1661台灣船園區、四鯤鯓（龍崗天橋停車場）等4個場地。',
+             '至於光雕部分，由文化總會參與設計，以總統府為背景投放「口罩」、「豬肉」等圖樣，欲傳達這些成功的「台灣模式」，且象徵在動盪不安的國際情勢中，台灣仍能在黑暗中發出明亮的光，為國人指引方向，屹立風雨中守護國人，相當吸睛。'],
+ 'title': '雙十國慶節目三大亮點曝光\u3000內行攻略看這裡 | ETtoday政治新聞 | ETtoday新聞雲'}
+2021-06-19 21:50:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201009/1826868.htm> (referer: None)
+2021-06-19 21:50:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201009/1826868.htm>
+{'content': ['記者許展溢／台北報導',
+             '國慶假期到阿里山國家森林遊樂區入園半票優惠外，林務局嘉義林區管理處指出，也推出親子活動，雙十連假首日（9日)至阿里山姊妹潭體驗「為森林上色」，在透明小屋中一起盡情揮灑畫筆上色，與森林、湖畔相互輝映，打造阿里山裝置藝術，還有加碼秋日限定禮品、手做阿里山石膏植拓畫，將阿里山的美好帶回家。',
+             '嘉義林管處處長張岱表示，秋天的阿里山是最溫暖的顏色，今年特別在如夢似幻的妹潭打造透明彩繪小屋，邀請民眾共筆，繽紛顏料堆疊於透明牆面，看出去與妹潭的湖光山色、紅檜天然下種林的美景中相互輝映，創造阿里山新裝置藝術。',
+             '嘉義林管處指出，除了手繪活動，當日還有「植拓手作」定格植物美好瞬間，由達人現場教學，利用石膏的特性將植物封存；特別以阿里山採集到的乾燥植物作為素材，參加者可以挑選自己喜歡的元素，創作獨一無二的植物手作，帶走專屬阿里山秋日紀念。活動共分上午（9-12時）、下午（13-16時）2場次，限定名額各30組。',
+             '嘉義林管處提醒，本次活動採KKTIX購票平台，為提倡攜家帶眷，親子票一大一小（12歲以下）與全票同價只要500元，而有身心障礙者採半價優惠250元，入場還可兌換「秋季限定好禮」及「限量拍立得」。阿里山已邁入秋裝，來場阿里山之旅，日間捕捉青楓及櫻花葉轉紅的美景、傍晚追逐日落雲海，搭配「秋季彩繪森林」活動，不管是親子同樂、還是好友揪團一起都適合。'],
+ 'title': '阿里山遊樂區門票半價\u3000還要送「秋季限定好禮、限量拍立得」 | ETtoday生活新聞 | ETtoday新聞雲'}
+2021-06-19 21:50:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-19 21:50:12 [scrapy.extensions.feedexport] INFO: Stored csv feed (2 items) in: ./output/ettoday.csv
+2021-06-19 21:50:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 717,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 48883,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 0.568833,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 19, 13, 50, 12, 302455),
+ 'httpcompression/response_bytes': 243063,
+ 'httpcompression/response_count': 3,
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 5,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2021, 6, 19, 13, 50, 11, 733622)}
+2021-06-19 21:50:12 [scrapy.core.engine] INFO: Spider closed (finished)

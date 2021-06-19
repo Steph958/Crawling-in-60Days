@@ -1,0 +1,10 @@
+1.開啟一個新專案在自訂路徑中:
+scrapy startproject myFirstScrapyProject /C:/Users/vincentLee1231995/OneDrive/Documents/Personal/Crawling-in-60Days/jupyterlab/
+
+2.前往資料夾:
+cd C:/Users/vincentLee1231995/OneDrive/Documents/Personal/Crawling-in-60Days/jupyterlab/
+
+3.scrapy genspider domain domain.com，其中domain以及domain.com要根據你的目標網站做修改；
+假設我們要爬ettoday，ettoday的網址是https://www.ettoday.net/，
+那麼我們的指令要修改成scrapy genspider ettoday www.ettoday.net
+

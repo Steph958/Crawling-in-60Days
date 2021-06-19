@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from ettoday_project.items import ScrapyDemoItem
+from ettoday_project.items import ScrapyDemoItem  #爬蟲專案名稱 #items.py #引用裡面的類別
 
 
 class EttodaySpider(scrapy.Spider):
@@ -10,7 +10,7 @@ class EttodaySpider(scrapy.Spider):
                   'https://www.ettoday.net/news/20201009/1826868.htm']
 
     def parse(self, response):
-        item = ScrapyDemoItem()
-        item['title'] = response.xpath('//title/text()').get()
-        item['content'] = response.xpath('//div[@itemprop="articleBody"]//p/text()').getall()
+        item = ScrapyDemoItem()    #使用類別
+        item['title'] = response.xpath('//title/text()').get()   #使用類別下的方法
+        item['content'] = response.xpath('//div[@itemprop="articleBody"]//p/text()').getall()  #使用類別下的方法
         yield item

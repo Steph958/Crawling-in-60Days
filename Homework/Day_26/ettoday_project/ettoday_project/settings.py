@@ -9,7 +9,7 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'ettoday_project'
+BOT_NAME = 'ettoday_project'  #對應爬蟲專案名稱
 
 SPIDER_MODULES = ['ettoday_project.spiders']
 NEWSPIDER_MODULE = 'ettoday_project.spiders'
@@ -21,11 +21,11 @@ NEWSPIDER_MODULE = 'ettoday_project.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
-FEED_FORMAT = 'csv'
-FEED_EXPORT_ENCODING = 'utf-8'
-FEED_URI = './output/ettoday.csv'
+FEED_FORMAT = 'csv'    #設定要輸出的格式
+FEED_EXPORT_ENCODING = 'utf-8'     #設定輸出檔案的編碼方式
+FEED_URI = './output/ettoday.csv'  #設定輸出檔案路徑
 
-LOG_FILE = './output/ettoday.log'
+LOG_FILE = './output/ettoday.log'  #把本來顯示於terminal的log輸出成檔案
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

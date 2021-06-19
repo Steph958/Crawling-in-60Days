@@ -7,8 +7,7 @@
 
 import scrapy
 
-
-class ScrapyDemoItem(scrapy.Item):
+class ScrapyDemoItem(scrapy.Item):    #自訂類別名稱
     # define the fields for your item here like:
     # name = scrapy.Field()
     title = scrapy.Field()

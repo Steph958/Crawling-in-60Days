@@ -1,0 +1,184 @@
+2021-06-20 16:58:31 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: myproject)
+2021-06-20 16:58:31 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-20 16:58:31 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-20 16:58:31 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/myproject.log',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['myproject.spiders']}
+2021-06-20 16:58:31 [scrapy.extensions.telnet] INFO: Telnet Password: 341b633bd435e234
+2021-06-20 16:58:31 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-20 16:58:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-20 16:58:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-20 16:58:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-20 16:58:31 [scrapy.middleware] INFO: Enabled item pipelines:
+['myproject.pipelines.JSONPipeline']
+2021-06-20 16:58:31 [scrapy.core.engine] INFO: Spider opened
+2021-06-20 16:58:31 [PTTCrawler] DEBUG: Create temp file for store JSON - C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\crawled_data\.tmp.json.swp
+2021-06-20 16:58:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-20 16:58:31 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-20 16:58:31 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.ptt.cc/robots.txt> (referer: None)
+2021-06-20 16:58:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html> (referer: None)
+2021-06-20 16:58:32 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\myproject\spiders\PTTCrawler.py:28: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 28 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-20 16:58:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html>
+{'url': 'https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html', 'article_id': 'M.1624076374.A.116', 'article_author': 'kevinwei223 (CurryForThree)', 'article_title': '[高光] Seth Curry 24pts 6threes', 'article_date': 'Sat Jun 19 12:19:32 2021', 'article_content': '頻道名稱： NBA Highlights 頻道連結： https://youtu.be/Xq9GMKf98C8 簡短敘述： 手感火燙到不行的curry，關鍵第六戰一樣站出來，外線連發，將系列賽逼入生死第七戰。有一球西門轉頭hand off順便幫Curry擋人噴三分，根本就是勇士咖哩綠的必殺招，看了真舒服R。\n\n\n\nSent from JPTT on my Samsung SMA515F.\n\n https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html', 'ip': '1.200.14.116', 'message_count': {'all': 9, 'count': 5, 'push': 5, 'boo': 0, 'neutral': 4}, 'messages': [{'push_tag': '推', 'push_userid': 'ShibainuLee', 'push_content': 'FMVP gogo', 'push_ipdatetime': '06/19 12:37'}, {'push_tag': '推', 'push_userid': 'blackj14go', 'push_content': '叫Curry的都準', 'push_ipdatetime': '06/19 12:49'}, {'push_tag': '推', 'push_userid': 'SilenceWFL', 'push_content': '靠北 根本平民版steph', 'push_ipdatetime': '06/19 15:51'}, {'push_tag': '→', 'push_userid': 'SilenceWFL', 'push_content': '而且ben的hand off直接抄嘴綠的用法吧', 'push_ipdatetime': '06/19 15:51'}, {'push_tag': '→', 'push_userid': 'fahrenheit', 'push_content': '不幸版他哥', 'push_ipdatetime': '06/19 15:51'}, {'push_tag': '→', 'push_userid': 'EQUP', 'push_content': '以後他就是正牌咖哩，另一個就叫seth他哥', 'push_ipdatetime': '06/19 17:46'}, {'push_tag': '推', 'push_userid': 's50101', 'push_content': '倆兄弟今年表現都很不錯', 'push_ipdatetime': '06/20 02:17'}, {'push_tag': '推', 'push_userid': 'turnpoint', 'push_content': '當年他哥說沒錢的可以去他弟的訓練營，現在他弟的訓', 'push_ipdatetime': '06/20 13:13'}, {'push_tag': '→', 'push_userid': 'turnpoint', 'push_content': '練營也要漲價了', 'push_ipdatetime': '06/20 13:13'}]}
+2021-06-20 16:58:32 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-20 16:58:32 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "c:\users\vincentlee1231995\anaconda3\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\myproject\pipelines.py", line 63, in close_spider
+    os.rename(self.runtime_file_path, self.store_file_path)
+OSError: [WinError 87] 參數錯誤。: 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_27\\Day027_Scrapy_item\\myproject\\crawled_data\\.tmp.json.swp' -> 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_27\\Day027_Scrapy_item\\myproject\\crawled_data\\20210620T16:58:31-20210620T16:58:32.json'
+2021-06-20 16:58:32 [scrapy.extensions.feedexport] INFO: Stored csv feed (1 items) in: ./output/myproject.csv
+2021-06-20 16:58:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 647,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 4031,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 0.522352,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 20, 8, 58, 32, 139473),
+ 'httpcompression/response_bytes': 6827,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 4,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 2,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 6, 20, 8, 58, 31, 617121)}
+2021-06-20 16:58:32 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-06-20 16:59:31 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: myproject)
+2021-06-20 16:59:31 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-20 16:59:31 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-20 16:59:31 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/myproject.log',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['myproject.spiders']}
+2021-06-20 16:59:31 [scrapy.extensions.telnet] INFO: Telnet Password: 4822c5cb929a6a93
+2021-06-20 16:59:31 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-20 16:59:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-20 16:59:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-20 16:59:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-20 16:59:32 [scrapy.middleware] INFO: Enabled item pipelines:
+['myproject.pipelines.JSONPipeline']
+2021-06-20 16:59:32 [scrapy.core.engine] INFO: Spider opened
+2021-06-20 16:59:32 [PTTCrawler] DEBUG: Create temp file for store JSON - C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\crawled_data\.tmp.json.swp
+2021-06-20 16:59:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-20 16:59:32 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-20 16:59:32 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.ptt.cc/robots.txt> (referer: None)
+2021-06-20 16:59:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html> (referer: None)
+2021-06-20 16:59:32 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\myproject\spiders\PTTCrawler.py:28: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 28 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-20 16:59:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html>
+{'url': 'https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html', 'article_id': 'M.1624076374.A.116', 'article_author': 'kevinwei223 (CurryForThree)', 'article_title': '[高光] Seth Curry 24pts 6threes', 'article_date': 'Sat Jun 19 12:19:32 2021', 'article_content': '頻道名稱： NBA Highlights 頻道連結： https://youtu.be/Xq9GMKf98C8 簡短敘述： 手感火燙到不行的curry，關鍵第六戰一樣站出來，外線連發，將系列賽逼入生死第七戰。有一球西門轉頭hand off順便幫Curry擋人噴三分，根本就是勇士咖哩綠的必殺招，看了真舒服R。\n\n\n\nSent from JPTT on my Samsung SMA515F.\n\n https://www.ptt.cc/bbs/NBA_Film/M.1624076374.A.116.html', 'ip': '1.200.14.116', 'message_count': {'all': 9, 'count': 5, 'push': 5, 'boo': 0, 'neutral': 4}, 'messages': [{'push_tag': '推', 'push_userid': 'ShibainuLee', 'push_content': 'FMVP gogo', 'push_ipdatetime': '06/19 12:37'}, {'push_tag': '推', 'push_userid': 'blackj14go', 'push_content': '叫Curry的都準', 'push_ipdatetime': '06/19 12:49'}, {'push_tag': '推', 'push_userid': 'SilenceWFL', 'push_content': '靠北 根本平民版steph', 'push_ipdatetime': '06/19 15:51'}, {'push_tag': '→', 'push_userid': 'SilenceWFL', 'push_content': '而且ben的hand off直接抄嘴綠的用法吧', 'push_ipdatetime': '06/19 15:51'}, {'push_tag': '→', 'push_userid': 'fahrenheit', 'push_content': '不幸版他哥', 'push_ipdatetime': '06/19 15:51'}, {'push_tag': '→', 'push_userid': 'EQUP', 'push_content': '以後他就是正牌咖哩，另一個就叫seth他哥', 'push_ipdatetime': '06/19 17:46'}, {'push_tag': '推', 'push_userid': 's50101', 'push_content': '倆兄弟今年表現都很不錯', 'push_ipdatetime': '06/20 02:17'}, {'push_tag': '推', 'push_userid': 'turnpoint', 'push_content': '當年他哥說沒錢的可以去他弟的訓練營，現在他弟的訓', 'push_ipdatetime': '06/20 13:13'}, {'push_tag': '→', 'push_userid': 'turnpoint', 'push_content': '練營也要漲價了', 'push_ipdatetime': '06/20 13:13'}]}
+2021-06-20 16:59:32 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-20 16:59:32 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "c:\users\vincentlee1231995\anaconda3\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_27\Day027_Scrapy_item\myproject\myproject\pipelines.py", line 63, in close_spider
+    os.rename(self.runtime_file_path, self.store_file_path)
+OSError: [WinError 87] 參數錯誤。: 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_27\\Day027_Scrapy_item\\myproject\\crawled_data\\.tmp.json.swp' -> 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_27\\Day027_Scrapy_item\\myproject\\crawled_data\\20210620T16:59:32-20210620T16:59:32.json'
+2021-06-20 16:59:32 [scrapy.extensions.feedexport] INFO: Stored json feed (1 items) in: ./output/myproject.json
+2021-06-20 16:59:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 647,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 4013,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 0.831916,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 20, 8, 59, 32, 909584),
+ 'httpcompression/response_bytes': 6827,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 4,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 2,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 6, 20, 8, 59, 32, 77668)}
+2021-06-20 16:59:32 [scrapy.core.engine] INFO: Spider closed (finished)

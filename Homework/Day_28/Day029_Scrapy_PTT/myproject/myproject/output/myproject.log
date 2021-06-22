@@ -1,0 +1,177 @@
+2021-06-22 13:32:02 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: myproject)
+2021-06-22 13:32:02 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-22 13:32:02 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-22 13:32:26 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: myproject)
+2021-06-22 13:32:26 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-22 13:32:26 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-22 13:32:26 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/myproject.log',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['myproject.spiders']}
+2021-06-22 13:32:26 [scrapy.extensions.telnet] INFO: Telnet Password: 1fd6332450eb63dd
+2021-06-22 13:32:26 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-22 13:32:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-22 13:32:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-22 13:32:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-22 13:32:26 [scrapy.middleware] INFO: Enabled item pipelines:
+['myproject.pipelines.JSONPipeline']
+2021-06-22 13:32:26 [scrapy.core.engine] INFO: Spider opened
+2021-06-22 13:32:26 [PTTCrawler] DEBUG: Create temp file for store JSON - C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\crawled_data\.tmp.json.swp
+2021-06-22 13:32:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-22 13:32:26 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-22 13:32:27 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.ptt.cc/robots.txt> (referer: None)
+2021-06-22 13:32:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/index.html> (referer: None)
+2021-06-22 13:32:28 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py:24: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 24 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 要登入幾次才能被avnp97531認證?
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [新聞] 畫面曝光！重機騎士新竹峨眉台三線過彎
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [問卦] 第一次知道高雄人都喝屎水時有多震撼
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [問卦] 禾馨貴，為什麼市佔還能那麼高？
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [問卦] 當年SHE怎麼沒有黑掉?
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 草屯跟中榮 哪個精神科比較權威?
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [新聞] 士林長照48確診3死涉延誤通報！　柯Ｐ怒飆
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 沒拿到紓困又不解封的還能撐多久？
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 這種時候還在泡溫泉的人是什麼人啊？
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 今日確診維持在二位數的機會高嗎？
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] =.= 八卦板越來越無聊了？！
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [新聞] 蔡英文：作總統被批評在所難免 疫苗乞丐
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [問卦] 禾馨貴，為什麼市佔還能那麼高？
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 戶外野生的黑狗勾黑比較多？
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 環團怎麼都沒出來講免洗餐具
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article Re: [問卦] 禾馨貴，為什麼市佔還能那麼高？
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Parse article [問卦] 打巴掌大賽
+2021-06-22 13:32:28 [PTTCrawler] DEBUG: Reach the last article
+2021-06-22 13:32:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340098.A.CC3.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:28 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py:57: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 57 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-22 13:32:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340098.A.CC3.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340098.A.CC3.html', 'article_id': 'M.1624340098.A.CC3', 'article_author': 'tzonren (ZonRen)', 'article_title': '[問卦] 要登入幾次才能被avnp97531認證?', 'article_date': 'Tue Jun 22 13:34:54 2021', 'article_content': '小弟菜B8想說八卦肥宅怎麼也會有收信的一天，\n\n結果在有生之年的今天收到了avnp97531大大的認證信， https://imgur.com/NrDlpMh.jpg 請問各位大大收到認證信的時候要如何驗證呢?\n\n是不是該慶祝一下了?有掛否?\n\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340098.A.CC3.html', 'ip': '117.56.248.91', 'message_count': {'all': 10, 'count': 4, 'push': 5, 'boo': 1, 'neutral': 4}, 'messages': [{'push_tag': '→', 'push_userid': 'Dia149', 'push_content': '喝啦', 'push_ipdatetime': '114.43.176.66 06/22 13:35'}, {'push_tag': '噓', 'push_userid': 'YellowC', 'push_content': '女束攵', 'push_ipdatetime': '101.9.130.32 06/22 13:35'}, {'push_tag': '→', 'push_userid': 'O300', 'push_content': '我也有 驕傲', 'push_ipdatetime': '118.166.0.202 06/22 13:36'}, {'push_tag': '→', 'push_userid': 'vowpool', 'push_content': '隨機的啦 我就收到兩次了', 'push_ipdatetime': '125.227.40.62 06/22 13:36'}, {'push_tag': '推', 'push_userid': 'kantantantan', 'push_content': '我也有 好驕傲', 'push_ipdatetime': '111.71.66.105 06/22 13:38'}, {'push_tag': '推', 'push_userid': 'chen0625', 'push_content': '我也有拉', 'push_ipdatetime': '39.8.2.250 06/22 13:41'}, {'push_tag': '→', 'push_userid': 'love0504', 'push_content': '嘔嘔嘔嘔嘔嘔嘔嘔嘔嘔嘔', 'push_ipdatetime': '111.249.54.136 06/22 13:41'}, {'push_tag': '推', 'push_userid': 'Diaw01', 'push_content': '我也有', 'push_ipdatetime': '223.137.205.187 06/22 13:43'}, {'push_tag': '推', 'push_userid': 'Lailungsheng', 'push_content': '那隻狗雜碎理它喔', 'push_ipdatetime': '101.137.237.84 06/22 13:44'}, {'push_tag': '推', 'push_userid': 'DarkyIsCat', 'push_content': '根本亂發 沒什麼發文也會收到', 'push_ipdatetime': '101.12.20.84 06/22 13:44'}]}
+2021-06-22 13:32:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340243.A.409.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340243.A.409.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340243.A.409.html', 'article_id': 'M.1624340243.A.409', 'article_author': 'ronny1020 (偷偷魯蛇)', 'article_title': 'Re: [問卦] 當年SHE怎麼沒有黑掉?', 'article_date': 'Tue Jun 22 13:37:21 2021', 'article_content': ': 安安辣 : 剛剛意外間聽到一首當年SHE的 中國話 : 那個年代還沒有這麼多藝人去對面舔 : 這首歌出來我記得有引起一些人反彈 : 但是好像沒有很大的影響 : SHE還是好好的，後來各自單飛也過得不錯 : 歌詞舔成那樣放到現在應該被黑爆吧 : 有沒有當初SHE怎麼沒黑的掛? 因為中國話這張專輯發在 2007 年\n\n2006 年剛才發生過扁案\n\n2008 年馬總統當選\n\n那種時候哪有人在檢討討好中國的\n\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340243.A.409.html', 'ip': '124.218.32.203', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340286.A.7C1.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340490.A.D7F.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340479.A.8C5.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340497.A.682.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340411.A.1F7.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340276.A.5AF.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340286.A.7C1.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340286.A.7C1.html', 'article_id': 'M.1624340286.A.7C1', 'article_author': 'Waitaha (哈囉哈囉)', 'article_title': '長趙48士林長照48確診3死涉延誤通報！\u3000柯Ｐ怒飆', 'article_date': 'Tue Jun 22 13:38:03 2021', 'article_content': '1.媒體來源:\n蘋果日報\n\n2.記者署名:\n陳思豪/台北報導\n\n3.完整新聞標題:\n士林長照48確診3死涉延誤通報\u3000柯Ｐ怒飆：燒到上新聞才處理下令檢討懲處\n\n\n4.完整新聞內文:\n台北市長柯文哲上周自認疫情趨緩，沒想到卻連續爆出北農、長照機構群聚感染事件，引\n發外界質疑。北市府上午召開內部會議，有消息指出，市府內部不滿衛生局疾管科、長照\n科有疫調不實、延誤通報等情形，可能對基層記過、申誡等懲處。北市副市長黃珊珊受訪\n駁斥此消息，強調下午自己才要開檢討會，會都還沒開怎麼會確定懲處，市府目前正在比\n對，如果真的衛生局同仁有疏失會處理，但目前尚未定案。\n\n北農上周六開記者會宣稱只有18人染疫，市府也老神在在，沒想到確診數在前天一口氣增\n為45人，逼的市府只能緊急全面快篩，並對現場工作人員施打疫苗；士林長照機構則早在\n8日就有人確診，但最後卻未確實匡列，一口氣爆出47人染疫3死憾事。\n\n消息指出，北市府上午召開內部會議，認定疾管科、長照科有疫調不實、延誤通報等情形\n，可能對相關人員進行懲處。此外市府人員透露，台北市長柯文哲上午又為兩案不滿發飆\n，痛罵衛生局有問題也不通報長官，等事情燒起來上新聞才要來處理。\n\n黃珊珊受訪表示，目前還沒有確定懲處衛生局人員，因為染疫人員有些在外縣市、有些在\n台北市，要看是哪一部分疫調不實，內部還在比對資料，檢討會今天下午才會舉行，由他\n親自主持，這場會都還沒有開，怎麼會有確定懲處的訊息。\n\n至於柯文哲是否又在會中發飆？她坦言我們很不高興，因為沒有跟長官報告此事，她\n知道衛生局同仁都很忙碌，但有情況還是要通報，如果真的分身乏術，可以一起想辦法怎\n麼處理。(陳思豪/台北報導)\n\n\n\n5.完整新聞連結 (或短網址): https://tw.appledaily.com/life/20210622/SCGQELZHKRGUHKGM6CQM6PEMUY/ 6.備註: https://www.ptt.cc/bbs/Gossiping/M.1624340286.A.7C1.html', 'ip': '1.161.85.197', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340490.A.D7F.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340490.A.D7F.html', 'article_id': 'M.1624340490.A.D7F', 'article_author': 'orze04 (orz)', 'article_title': 'Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7', 'article_date': 'Tue Jun 22 13:41:28 2021', 'article_content': ': : 1.媒體來源: : : 中央社 : : 2.記者署名: : : （中央社記者賴于榛台北22日電） : : 3.完整新聞標題: : : 蘇貞昌：雙北外送員、收銀員、計程車司機7/1起打疫苗 : : 4.完整新聞內文: : : 蘇貞昌：雙北外送員、收銀員、計程車司機7/1起打疫苗 : : 2021/6/22 12:17（6/22 12:26 更新） : 兼差或打工的外送、收銀也能打疫苗嗎？\n\n之後會不會出現員工工作還要付錢給老闆啊\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340490.A.D7F.html', 'ip': '223.140.34.101', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340479.A.8C5.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340479.A.8C5.html', 'article_id': 'M.1624340479.A.8C5', 'article_author': 'joanzkow (星浪)', 'article_title': '[問卦] 今日確診維持在二位數的機會上嗎？', 'article_date': 'Tue Jun 22 13:41:17 2021', 'article_content': '昨天確診重回二位數，只剩75人\n\n今天確診數，是否會持續降低？\n\n還是會重回三位數？\n\n各位覺得這個數字是下降還上升呢？\n\n台灣疫情應該平穩了吧\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340479.A.8C5.html', 'ip': '180.217.10.54', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340396.A.C34.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340497.A.682.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340497.A.682.html', 'article_id': 'M.1624340497.A.682', 'article_author': 'xzcb2008 (麻瓮！日本變態貓貓)', 'article_title': '[問卦] =.= 八卦板越來越無聊了？！', 'article_date': 'Tue Jun 22 13:41:35 2021', 'article_content': '=.=\n\n我阿肥啦\n\n那個我長期觀察最近\n\n可能是大家年紀都大了\n\n愛政治沒有創意\n\n這裡又沒有年輕人進來\n\n幹\n\n現在文章動不動就政治的\n\n動不動就疫苗無趣又沒有八卦\n\n妹妹文也少\n\n貓貓文也少\n\n八卦板怎麼這樣啦幹\n\n可以把那些不相關的新聞疫情的\n\n去其他地方討論嗎=.=\n\n現在這樣很無聊每天都一樣\n\n幹\n\n媽的\n\n有沒有八卦板變無聊的八卦？\n\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340497.A.682.html', 'ip': '111.83.32.230', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340240.A.E23.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340411.A.1F7.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340411.A.1F7.html', 'article_id': 'M.1624340411.A.1F7', 'article_author': 'YellowC (黃西)', 'article_title': '[問卦] 這種時候還在泡溫泉的人是什麼人啊？', 'article_date': 'Tue Jun 22 13:40:09 2021', 'article_content': '午安喔各位我肥肥喇\n\n肥肥昨天看彰化確診者疫調\n有一個確診者在6/16還來台南泡溫泉\n天氣熱得跟鬼一樣到底是在？\n\n大熱天還從彰化跑到台南泡溫泉的人都是哪種人啊？\n有木有八卦呢？\n\n大家討論一下吧\n https://i.imgur.com/gdG6nTm.jpg https://i.imgur.com/LrN4DzJ.gif https://i.imgur.com/f55JAqm.gif https://i.imgur.com/p4Sk9sH.gif https://i.imgur.com/aFANkoo.gif https://i.imgur.com/Sj1tV8c.gif https://i.imgur.com/2OifM9E.gif https://www.ptt.cc/bbs/Gossiping/M.1624340411.A.1F7.html', 'ip': '101.9.130.32', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340276.A.5AF.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340276.A.5AF.html', 'article_id': 'M.1624340276.A.5AF', 'article_author': 'Townshend (Pete)', 'article_title': '[問卦] 草屯跟中榮 哪個精神科比較權威?', 'article_date': 'Tue Jun 22 13:37:54 2021', 'article_content': '看到找妹妹找不到殺牙醫的新聞:\n\n一審合議庭依據草屯療養院鑑定結果，認定他2018年5月24日在診所行兇時，受到精神疾\n病影響，辨識行為能力顯著降低。\n\n但案件上訴後， 台中高分院重新委託台中榮民總醫院鑑定，雖鑑定結果逆轉認定案發時賴 男精神穩定、不受精神病史影響 一樣的個案 竟然有完全相反的結論\n\n草屯跟中榮 哪個精神科比較權威?\n\n身為一般老百姓\n要相信誰的鑑定報告比較好呢?\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340276.A.5AF.html', 'ip': '27.247.229.119', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340396.A.C34.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340396.A.C34.html', 'article_id': 'M.1624340396.A.C34', 'article_author': 'popy8789 (面對它)', 'article_title': '[問卦] 沒拿到紓困又不解封的還能撐多久？', 'article_date': 'Tue Jun 22 13:39:54 2021', 'article_content': '現在一直有聲浪說不要628解封\n\n但記得紓困也很多人沒拿到錢\n\n阿沒紓困又不讓人解封賺錢\n\n到底有這想法的有多自私\n\n只顧著自己能WFH賺錢，別人死活置之不管\n\n沒紓困又不解封，這些人還能撐多久\n\n為何不替他們多想想呢？為何有人想為封而封？\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340396.A.C34.html', 'ip': '1.169.68.121', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340240.A.E23.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340240.A.E23.html', 'article_id': 'M.1624340240.A.E23', 'article_author': 'n4939733 (Rex)', 'article_title': 'Re: [問卦] 禾馨貴，為什麼市佔還能那麼高？', 'article_date': 'Tue Jun 22 13:37:17 2021', 'article_content': ': 小弟我住南桃園啦 : 上一胎一開始懷孕是去宋俊宏，哇人有夠多 晚上6:30開始看的診常常看到11點多 而且診間 : 還會讓下一組的孕婦進去坐著等（所以你照完超音波出來醫生跟你說什麼坐在後面的待診那 : 組都聽的很清楚 覺得有夠沒隱私） : 後來20週安排禾馨怡仁照高層次  環境漂亮不說 診間候診的病人比宋俊宏少了8成以上 : 所以之後就改去那邊看  每次都隨到隨看 候診時間不超過10分鐘 : 雖然產檢一次費用是宋俊宏的3.5倍 但可以早2小時解決產檢我覺得很划算  大概是這樣 桃園勞壢區居民覆議1\n\n小女今年年初出生\n\n懷孕以前在弘琪看(話說有個阿北醫生態度奇差無比，一直在洗我們做試管嬰兒)\n\n三個月以前都在炳坤看得\n\n在炳坤看有個特點就要等個奇久無比\n\n然後孕婦諮詢也是在走道旁邊擺個小桌子就談起來了\n\n而且椅子都是硬梆梆的木頭椅，候診真的很痛苦\n\n我最高紀錄有從6點等到12點，人真的是爆多\n\n後來也是傻呼呼地看了一直到了聽說排高層次超音波竟然要排兩個月\n\n時限根本就過了\n\n就抱著嘗試的心態改成去楊梅禾馨看看\n\n去看了才真的了解拿錢換時間是什麼意思\n\n不得不說有個3D圖可以看，提早知道寶寶的長相對孕婦心情愉悅果然有差\n\n而且生產時也可以自費單人房，也不會很難預約\n\n整體生產費用無痛大概10萬以內\n\n相對炳坤大概就幾千塊\n\n只是待產時是一排孕婦排排躺著比較沒隱私\n\n看個人的取捨吧\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340240.A.E23.html', 'ip': '39.8.37.201', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340210.A.719.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340127.A.9AC.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340616.A.424.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340661.A.114.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340545.A.062.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340210.A.719.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340210.A.719.html', 'article_id': 'M.1624340210.A.719', 'article_author': 'boxoxox (BB)', 'article_title': 'Re: [問卦] 第一次知道高雄人都喝屎水時有多震撼', 'article_date': 'Tue Jun 22 13:36:48 2021', 'article_content': '喝屎水還好\n\n比較震撼的是高雄有加水站這種東西\n\n第一次看到加水站有震撼到\n\n這到底是啥鬼\n\n問本地朋友還說 因為喝自來水會生病\n\n所以要喝這個\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340210.A.719.html', 'ip': '115.85.25.106', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340127.A.9AC.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340127.A.9AC.html', 'article_id': 'M.1624340127.A.9AC', 'article_author': 'ClownV (克朗)', 'article_title': 'Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7', 'article_date': 'Tue Jun 22 13:35:25 2021', 'article_content': '計程車司機一天接觸的人數，根本沒有我上班接觸的人多\n他一週接觸的人數，說不定也沒有我通勤一次接觸的人多\n\n你說他們賺不到錢，要一直塞紓困就算了\n居然還說他們高風險？是在搞笑嗎？\n\n那物流業者算不算高風險？他們接觸到的人應該也比小黃多，移動範圍還更大\n每天這麼多小黃去加油，加油站員工算不算高風險？\n\n根本每個人都有理由想先打，政府這樣搞乾脆全面抽籤好了，跟藝fun券一樣\n\n\nSent from JPTT on my Asus ASUS_X01BDA.\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340127.A.9AC.html', 'ip': '49.216.31.183', 'message_count': {'all': 8, 'count': 4, 'push': 4, 'boo': 0, 'neutral': 4}, 'messages': [{'push_tag': '→', 'push_userid': 'sagarain', 'push_content': '有政府 會做事', 'push_ipdatetime': '1.169.27.236 06/22 13:35'}, {'push_tag': '推', 'push_userid': 'tuo9', 'push_content': '18萬金融從業人員是賤民', 'push_ipdatetime': '111.82.10.180 06/22 13:36'}, {'push_tag': '→', 'push_userid': 'NinJa', 'push_content': '但是他們接觸的不特定人 會比較久一點', 'push_ipdatetime': '219.70.212.102 06/22 13:36'}, {'push_tag': '推', 'push_userid': 'shomo', 'push_content': '認同你的說法', 'push_ipdatetime': '101.10.6.172 06/22 13:37'}, {'push_tag': '→', 'push_userid': 'tuo9', 'push_content': '營運不中斷，要紓困，沒疫苗打', 'push_ipdatetime': '111.82.10.180 06/22 13:37'}, {'push_tag': '→', 'push_userid': 'muriel23', 'push_content': '再吵乾脆全部照年齡打  最公平沒爭議', 'push_ipdatetime': '184.191.77.53 06/22 13:37'}, {'push_tag': '推', 'push_userid': 'lolic', 'push_content': '他領的錢比你多', 'push_ipdatetime': '223.137.208.132 06/22 13:37'}, {'push_tag': '推', 'push_userid': 'milk7054', 'push_content': '小黃是綠色權貴無冕皇', 'push_ipdatetime': '39.10.71.102 06/22 13:37'}]}
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340616.A.424.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340616.A.424.html', 'article_id': 'M.1624340616.A.424', 'article_author': 'einard6666 (一切都不OK)', 'article_title': 'Re: [問卦] 禾馨貴，為什麼市佔還能那麼高？', 'article_date': 'Tue Jun 22 13:43:34 2021', 'article_content': ': 新聞說禾馨在台北市的市佔有30%~40% : 比原本的認知高很多 : 禾馨不是各項費用都蠻貴的嗎？ : 怎麼能同時做到高市佔的？ : 有沒有卦？ 報個今年價錢讓大家參考參考\n\n  自然產無痛           130000\n  2個月時全套基因檢測    52000\n  各項營養品           > 36000 (有幾次沒記錄到)\n\n\n\n  之前在另一家有名婦產科\n\n  每次去排隊到炸  可以耗12小時在那邊\n\n  禾馨雖然有名  人也多\n\n  從來沒有等超過1小時 (最久一次就接近1小時)\n\n\n\n  醫生護士態度都很好\n\n  但就是會推銷你各式各樣的產品\n\n  孕婦腦波弱 很容易就照單全收\n\n  其他地方的孕婦沒吃那麼多保養品也是可以長大長健康\n\n  只能當作吃心安的\n\n  身邊大部分人也都對該所持正面態度\n\n\n  我覺得就是一間企業化經營的診所\n\n  一邊貼心提供服務\n\n  一邊盡可能最大化獲利\n\n\n  喜不喜歡就見仁見智囉\n\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340616.A.424.html', 'ip': '211.21.108.31', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340661.A.114.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340661.A.114.html', 'article_id': 'M.1624340661.A.114', 'article_author': 'simoncha (茶或咖啡)', 'article_title': '[問卦] 打巴掌大賽', 'article_date': 'Tue Jun 22 13:44:17 2021', 'article_content': '打架不打臉是武德\n\n打巴掌大賽卻是只打臉\n\n這比賽有正式的組織\n\n即便是冠軍也是臉腫腫真是SB比賽\n\n你一來我一往\n\n像不像PTT的網戰呢\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340661.A.114.html', 'ip': '89.39.107.178', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340545.A.062.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340545.A.062.html', 'article_id': 'M.1624340545.A.062', 'article_author': 'astrayzip ()', 'article_title': '[問卦] 環團怎麼都沒出來講免洗餐具', 'article_date': 'Tue Jun 22 13:42:23 2021', 'article_content': '記得之前免洗吸管的時候聲勢浩大\n\n許多環團都跳出來大喊海洋塑膠廢棄物\n\n現在全國三級\n\n人人內用\n\n免洗餐具用量大幅提升\n\n其中不管是免洗筷的包膜\n\n湯碗的杯蓋\n\n飲料的封膜\n\n炸物的透明塑膠盒\n\n還有外送包裝的塑膠提袋\n\n都是塑膠廢棄物\n\n以往不開放內用的店家紛紛開放\n\n大量增加免洗餐具\n\n為啥這時海龜跟其他海洋生物\n\n就都不會吃到這些塑膠\n\n不用發聲了呢\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340545.A.062.html', 'ip': '111.71.95.147', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340523.A.F25.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340522.A.836.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340107.A.275.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340523.A.F25.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340523.A.F25.html', 'article_id': 'M.1624340523.A.F25', 'article_author': 'moai513 (523)', 'article_title': '[問卦] 戶外野生的黑狗勾黑比較多？', 'article_date': 'Tue Jun 22 13:42:01 2021', 'article_content': '乳題\n\nㄧ早看到幾隻狗勾黑色的\n\n中午北上到郊區\n\n路邊幾隻也是黑的\n\n因該不是同一批黑狗\n\n是黑狗勾比較厲害嗎\n\n有刈包嗎\n https://i.imgur.com/BnjnBrx.jpg https://youtu.be/iRC5cpEKu0 請點不喜歡 記得噓 謝謝昂\n\n\n\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340523.A.F25.html', 'ip': '101.12.62.139', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340522.A.836.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340522.A.836.html', 'article_id': 'M.1624340522.A.836', 'article_author': 'wowcow37 (盧安)', 'article_title': 'Re: [問卦] 禾馨貴，為什麼市佔還能那麼高？', 'article_date': 'Tue Jun 22 13:42:00 2021', 'article_content': '小弟的經驗跟你不一樣耶\n\n第一胎因為沒啥經驗就想找老婆以前看婦產科多囊性卵巢的醫生，一查發現就醫生從大醫\n院轉到禾馨看診就想說那去禾馨好了\n\n剛開始產檢進去環境什麼的都還不錯，但就收費有點貴，有一次過號等了一個多小時，再\n一一次預約的號碼是1號，所以想說怕又過號等太久，兩點開診我們大概1點45就到了，結\n果等呀等2點到了還沒叫號想說奇怪可能醫生還沒到吧，約莫2點20有個婦人走出來才發現\n靠杯居然是先看其他人，問了下護士也只說那位婦人有跟醫生約時間問診，當下只賭爛覺\n的阿問診就不用掛號可以插隊唷，8成又是給權貴方便，反正也不缺我們\n\n之後轉去長庚才發現禾馨真的是貴到靠北，從檢查到生產的費用都是，而且產檢健保是有\n給付超音波的也要另外收費，到長庚才發現產檢補助被多扣，後來新聞也爆高層次多刷健\n保卡\n\n我是覺的大醫院也不錯啦，至少價格親民很多，設備、病房也沒爛到哪去，以上供參考 : 小弟我住南桃園啦 : 上一胎一開始懷孕是去宋俊宏，哇人有夠多 晚上6:30開始看的診常常看到11點多 而且 診 : 還會讓下一組的孕婦進去坐著等（所以你照完超音波出來醫生跟你說什麼坐在後面的待 診 : 組都聽的很清楚 覺得有夠沒隱私） : 後來20週安排禾馨怡仁照高層次  環境漂亮不說 診間候診的病人比宋俊宏少了8成以上 : 所以之後就改去那邊看  每次都隨到隨看 候診時間不超過10分鐘 : 雖然產檢一次費用是宋俊宏的3.5倍 但可以早2小時解決產檢我覺得很划算  大概是這 樣\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340522.A.836.html', 'ip': '101.10.12.159', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340107.A.275.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340107.A.275.html', 'article_id': 'M.1624340107.A.275', 'article_author': 'medlife0830 (allen game)', 'article_title': 'Re: [新聞] 畫面曝光！重機騎士新竹峨眉台三線過彎', 'article_date': 'Tue Jun 22 13:35:05 2021', 'article_content': '重機很多都騎得比車快\n\n自以為很神勇 其實是路上車都會讓他\n\n這時候我都在想\n\n這樣騎不會出事嗎......\n\n\n不過也不能怪買重機的人 不超速那買重機幹嘛\n\n https://www.ptt.cc/bbs/Gossiping/M.1624340107.A.275.html', 'ip': '111.82.132.231', 'message_count': {'all': 18, 'count': 6, 'push': 7, 'boo': 1, 'neutral': 10}, 'messages': [{'push_tag': '→', 'push_userid': 'LoveMakeLove', 'push_content': '難道要買買菜車？', 'push_ipdatetime': '1.200.16.236 06/22 13:35'}, {'push_tag': '噓', 'push_userid': 'darkMood', 'push_content': '小英有想過台灣會不會出事嗎? 唉', 'push_ipdatetime': '112.104.82.106 06/22 13:36'}, {'push_tag': '推', 'push_userid': 'a22122212', 'push_content': '重機仔會噓你', 'push_ipdatetime': '114.37.207.199 06/22 13:36'}, {'push_tag': '推', 'push_userid': 'peterwww', 'push_content': '當初就不應該開放 開放等於送死', 'push_ipdatetime': '123.194.169.233 06/22 13:36'}, {'push_tag': '推', 'push_userid': 'monok', 'push_content': '大重孝子會噓你', 'push_ipdatetime': '101.137.108.252 06/22 13:37'}, {'push_tag': '→', 'push_userid': 'peterwww', 'push_content': '那些立委議員根本不管這些 只知道爽就好', 'push_ipdatetime': '123.194.169.233 06/22 13:37'}, {'push_tag': '推', 'push_userid': 'tchialen', 'push_content': '100cc的買菜車就能超速 市區40郊區60', 'push_ipdatetime': '223.139.237.52 06/22 13:37'}, {'push_tag': '→', 'push_userid': 'peterwww', 'push_content': '道路是交通聯繫通勤 不是飆車', 'push_ipdatetime': '123.194.169.233 06/22 13:37'}, {'push_tag': '→', 'push_userid': 'peterwww', 'push_content': '現在這些設備愈來愈強 加速度快 危險性', 'push_ipdatetime': '123.194.169.233 06/22 13:38'}, {'push_tag': '→', 'push_userid': 'angellll', 'push_content': 'https://imgur.com/LLeS5Sh', 'push_ipdatetime': '118.169.235.89 06/22 13:38'}, {'push_tag': '→', 'push_userid': 'angellll', 'push_content': '車神再現 他在特技表演吧', 'push_ipdatetime': '118.169.235.89 06/22 13:38'}, {'push_tag': '推', 'push_userid': 'defendor007', 'push_content': '不怪他？改天害到你親人再來不怪他', 'push_ipdatetime': '111.71.19.250 06/22 13:39'}, {'push_tag': '推', 'push_userid': 'magic543', 'push_content': '數據證明 買菜車 死亡率比較低', 'push_ipdatetime': '61.62.212.61 06/22 13:39'}, {'push_tag': '→', 'push_userid': 'defendor007', 'push_content': '看到一個飆仔 我就詛咒他等等撞死', 'push_ipdatetime': '111.71.19.250 06/22 13:39'}, {'push_tag': '→', 'push_userid': 'defendor007', 'push_content': '還真的有一次詛咒成功，下個路口就失', 'push_ipdatetime': '111.71.19.250 06/22 13:40'}, {'push_tag': '→', 'push_userid': 'defendor007', 'push_content': '控雷殘', 'push_ipdatetime': '111.71.19.250 06/22 13:40'}, {'push_tag': '→', 'push_userid': 'chunger13', 'push_content': '可以走高架道路', 'push_ipdatetime': '42.72.32.88 06/22 13:42'}, {'push_tag': '推', 'push_userid': 'initialdark', 'push_content': '第二句中肯 一堆垃圾機車鑽縫剪線', 'push_ipdatetime': '110.28.198.35 06/22 13:42'}]}
+2021-06-22 13:32:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624340510.A.3C1.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 13:32:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624340510.A.3C1.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624340510.A.3C1.html', 'article_id': 'M.1624340510.A.3C1', 'article_author': 'trashpoking (廢文王 )', 'article_title': 'Re: [新聞] 蔡英文：作總統被批評在所難免 疫苗乞丐', 'article_date': 'Tue Jun 22 13:41:48 2021', 'article_content': ': 蔡英文：作總統被批評在所難免 疫苗乞丐說法並不恰當 : https://newtalk.tw/news/view/20210621/592414 我是不知道蔡總統是怎樣啦...\n\n今天我又看到一個新聞啦\n\n蘇貞昌：雙北外送員、收銀員、計程車駕駛等 7/1起造冊施打疫苗\n\n然後讓我賭爛的要命啦，我們就不講誰可以打的標準是從哪來的啦\n\n反正昨天那張表，只要你大資黨想插誰進去打總是可以找到理由的啦\n\n反正插隊就插對，現在就是你最大啊，我們能說什麼\n\n只不過造成你每公布一類的人可以打，就造成我們這些小老百姓的民怨\n\n相對剝奪感重，開始罵你，你有沒有想過為什麼\n\n不就是 你他媽的超前部暑喊了一年，結果疫情爆了，我還是沒疫苗打 講白話一點就是  疫  苗  不  夠\n\n幹...你老是說你有買有買..結果咧..現在開打的都是人家送的\n\n我們就不說美國那一批是不是軍購漲價換來的啦，\n\n日本人還把你中華民國當殖民地的態度在看啊，我不要的往你這邊送啊\n\n這樣子還不夠乞丐，我不懂什麼叫乞丐了啦...\n\n還是你要當乞丐中的霸主？  那還是乞丐啊 去看看周星馳演的電影好嗎？\n\n丐幫有多少弟子，不是由我決定，而是由你決定的\n皇上：我？\n蘇乞兒： 如果你真的英明神武，使得國泰民安，鬼才願意當乞丐。\n\n今天你真的英明神武，國泰民安，人人有疫苗打，鬼才理你要怎麼開打順序\n\n還是說....水太深....不能問啦...\n\n\n話說有個人要跟我對賭我工時有沒有變少，要賭命，小魯只好他說小魯莫名奇妙被砍七天\n工時多了 8  7 = 56 小時，結果我也不知道他會不會去死，所以只好做成簽名檔讓大家\n笑笑，因為一個人的credit如果是一直自己去破壞，大概最後就是變成丑角而不自知\n因為不能指名道姓，只好貼出文章連結讓大家自己去評判了...\n 文章代碼(AID): 1PjZCERi (Gossiping) [ptt.cc] Re: [新聞] 一例一休修法給? \n 文章網址: https://www.ptt.cc/bbs/Gossiping/M.1505112846.A.6EC.html https://www.ptt.cc/bbs/Gossiping/M.1624340510.A.3C1.html', 'ip': '114.45.244.69', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 13:32:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-22 13:32:30 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "c:\users\vincentlee1231995\anaconda3\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\pipelines.py", line 68, in close_spider
+    os.rename(self.runtime_file_path, self.store_file_path)
+OSError: [WinError 87] 參數錯誤。: 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\.tmp.json.swp' -> 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\Gossiping-20210622T13:32:30.json'
+2021-06-22 13:32:30 [scrapy.extensions.feedexport] INFO: Stored json feed (19 items) in: ./output/myproject.json
+2021-06-22 13:32:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 9717,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 57226,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 20,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 4.203514,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 22, 5, 32, 30, 641489),
+ 'httpcompression/response_bytes': 135334,
+ 'httpcompression/response_count': 21,
+ 'item_scraped_count': 19,
+ 'log_count/DEBUG': 61,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 3,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 20,
+ 'scheduler/dequeued/memory': 20,
+ 'scheduler/enqueued': 20,
+ 'scheduler/enqueued/memory': 20,
+ 'start_time': datetime.datetime(2021, 6, 22, 5, 32, 26, 437975)}
+2021-06-22 13:32:30 [scrapy.core.engine] INFO: Spider closed (finished)

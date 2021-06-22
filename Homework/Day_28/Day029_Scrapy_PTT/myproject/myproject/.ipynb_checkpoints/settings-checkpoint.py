@@ -21,9 +21,9 @@ NEWSPIDER_MODULE = 'myproject.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
-FEED_FORMAT = 'json'    #設定要輸出的格式
+FEED_FORMAT = 'csv'    #設定要輸出的格式
 FEED_EXPORT_ENCODING = 'utf-8'     #設定輸出檔案的編碼方式
-FEED_URI = './output/myproject.json'  #設定輸出檔案路徑
+FEED_URI = './output/myproject.csv'  #設定輸出檔案路徑
 
 LOG_FILE = './output/myproject.log'  #把本來顯示於terminal的log輸出成檔案
 

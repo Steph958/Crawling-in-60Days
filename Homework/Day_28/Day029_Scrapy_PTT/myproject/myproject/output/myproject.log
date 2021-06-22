@@ -175,3 +175,338 @@ OSError: [WinError 87] 參數錯誤。: 'C:\\Users\\vincentLee1231995\\OneDrive\
  'scheduler/enqueued/memory': 20,
  'start_time': datetime.datetime(2021, 6, 22, 5, 32, 26, 437975)}
 2021-06-22 13:32:30 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-06-22 14:06:26 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: myproject)
+2021-06-22 14:06:26 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-22 14:06:26 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-22 14:06:26 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/myproject.log',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['myproject.spiders']}
+2021-06-22 14:06:26 [scrapy.extensions.telnet] INFO: Telnet Password: b2e2b8194f6766b1
+2021-06-22 14:06:26 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-22 14:06:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-22 14:06:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-22 14:06:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-22 14:06:27 [scrapy.middleware] INFO: Enabled item pipelines:
+['myproject.pipelines.JSONPipeline']
+2021-06-22 14:06:27 [scrapy.core.engine] INFO: Spider opened
+2021-06-22 14:06:27 [PTTCrawler] DEBUG: Create temp file for store JSON - C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\crawled_data\.tmp.json.swp
+2021-06-22 14:06:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-22 14:06:27 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-22 14:06:30 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.ptt.cc/robots.txt> (referer: None)
+2021-06-22 14:06:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/index.html> (referer: None)
+2021-06-22 14:06:31 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py:24: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 24 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-22 14:06:31 [PTTCrawler] DEBUG: Parse article [問卦] 換約要換哪個電信？
+2021-06-22 14:06:31 [PTTCrawler] DEBUG: Parse article Re: [爆卦] 本土+78、境外+1、死亡+6
+2021-06-22 14:06:31 [PTTCrawler] DEBUG: Parse article Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7
+2021-06-22 14:06:31 [PTTCrawler] DEBUG: Parse article [問卦] 老闆說他店裡跟米字有關的都有賣？
+2021-06-22 14:06:31 [PTTCrawler] DEBUG: Parse article Re: [爆卦] 本土+78、境外+1、死亡+6
+2021-06-22 14:06:31 [PTTCrawler] DEBUG: Parse article [問卦] 自己捅婁子處理完又誇獎自己的是什麼人
+2021-06-22 14:06:31 [PTTCrawler] DEBUG: Reach the last article
+2021-06-22 14:06:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:06:32 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py:57: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 57 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-22 14:06:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html', 'article_id': 'M.1624342640.A.D7A', 'article_author': 'WeiU (微，Ｕ文)', 'article_title': '[問卦] 換約要換哪個電信？', 'article_date': 'Tue Jun 22 14:17:16 2021', 'article_content': '欸欸肥宅\n\n小妹我公館IU\n\n最近快要換約了\n\n現在用台灣之星\n\n覺得難用想換別家\n\n要選哪家比較好呢\n\n有卦嗎嘻嘻\n\nSent from JPTT on my iPhone\n\n\n\n我是\u3000\u3000微，Ｕ文\n\n專發\u3000\u3000微，優文\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html', 'ip': '58.114.9.67', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:06:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:06:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:06:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:06:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:06:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:06:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html', 'article_id': 'M.1624342715.A.C6D', 'article_author': 'WuDangJie (國安雞精準備進場)', 'article_title': '[問卦] 自己捅婁子處理完又誇獎自己的是什麼人', 'article_date': 'Tue Jun 22 14:18:33 2021', 'article_content': '是這樣啦\n\n有個同事最近出了個包\n\n大家忙手忙腳的幫他處理完後\n\n他又好像一副自己把麻煩處理好很厲害的樣子\n\n一直說自己哪裡哪裡做得很好\n\n啊也不想想一開始就是自己出的包= =\n\n跟他說一開始他做錯了又死不承認\n\n一直說他就算做錯了 但他後續處理得很好\n\n請問要怎麼形容這種人啊？\n\n無賴？不要臉？自導自演？\n\n還是有什麼詞可以嗆到他沒辦法反駁的？\n\n\n\nSent from JPTT on my iPhone\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html', 'ip': '36.230.213.227', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:06:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html', 'article_id': 'M.1624342701.A.74F', 'article_author': 'iecju520 (哎依喜德魯)', 'article_title': 'Re: [爆卦] 本土+78、境外+1、死亡+6', 'article_date': 'Tue Jun 22 14:18:19 2021', 'article_content': '1450 還在維穩\n\n還是一樣辣 不普篩\n\n這些數字根本沒參考性\n\n哀 台灣總是一堆啊Ｑ精神\n\n難怪台灣會淪陷\n\n反普篩仔就是罪魁禍首 : 哇靠士林跟北農有沒有算進去阿 : 台北才25例 : 還是唐鳳系統又有問題了傳不上去 : 後面再笑證回歸 : 唯一作為就只有一些人打到疫苗 : 這樣可以狂降，也是猛猛的 https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html', 'ip': '180.217.15.50', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:06:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html', 'article_id': 'M.1624342647.A.6CA', 'article_author': 'zakijudelo (Zack)', 'article_title': 'Re: [爆卦] 本土+78、境外+1、死亡+6', 'article_date': 'Tue Jun 22 14:17:25 2021', 'article_content': '怎麼那麼奇怪啊 https://i.imgur.com/XVwSwLU.jpg 台北市也才新增25例而已\n怎麼媒體及八卦政黑的網軍把某農及士林炒得像什麼大爆發似的\n相較於311/諾富特那時他們輕輕放下的態度\n這種不對等攻擊\n到底有何目的\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html', 'ip': '101.12.34.37', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:06:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html', 'article_id': 'M.1624342658.A.93D', 'article_author': 'fengwen (啦勒)', 'article_title': 'Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7', 'article_date': 'Tue Jun 22 14:17:36 2021', 'article_content': '真的是看爽給誰就給誰\n\n計程車就說沒生意要紓困了  結果還說高風險先打疫苗\n這邏輯不知道跟誰學的\n\n要上班的每個韭菜都有可能接觸一堆人\n偏偏就挑一堆爭議最高的讓他們爽  勞工果然是最軟的一塊 隨便捏到死喔\n各位低等勞工  乖乖等高端吧\n\n是817的勞工就自己乖乖吞下去 不是817就怪你贏不了他們阿 也只能吞了 : 計程車司機一天接觸的人數，根本沒有我上班接觸的人多 : 他一週接觸的人數，說不定也沒有我通勤一次接觸的人多 : 你說他們賺不到錢，要一直塞紓困就算了 : 居然還說他們高風險？是在搞笑嗎？ : 那物流業者算不算高風險？他們接觸到的人應該也比小黃多，移動範圍還更大 : 每天這麼多小黃去加油，加油站員工算不算高風險？ : 根本每個人都有理由想先打，政府這樣搞乾脆全面抽籤好了，跟藝fun券一樣 :  : Sent from JPTT on my Asus ASUS_X01BDA. https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html', 'ip': '111.240.127.118', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:06:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html', 'article_id': 'M.1624342668.A.4D9', 'article_author': 'tudo0430 (可愛いは正義であり！)', 'article_title': '[問卦] 老闆說他店裡跟米字有關的都有賣？', 'article_date': 'Tue Jun 22 14:17:46 2021', 'article_content': '乳提\n\n裝米的米斗米缸\n\n人吃的米糕米餅\n\n豬吃的米渣米糠\n\n統統都有賣\n\n連米田共都有得賣\n\n該問他什麼跟米有關的東西才能打他的臉？\n\n有卦？\n\n\n\n？？？：お嬢ちゃん、魔法少女になる気ないかい？\n女の子：魔法少女？どうやってなるの？\n？？？：簡単さ、まず吾の股間の魔法ステッキを握ったまま、手首を上下動かせて\n\u3000      、次第に魔法ステッキが大きくなるから。そう、その調子。最後に魔法ステ\n\u3000\u3000\u3000\u3000ッキの先っちょから出る白い魔法薬液を飲んだら魔法少女になれるのさ。\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html', 'ip': '101.10.15.207', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:06:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-22 14:06:34 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "c:\users\vincentlee1231995\anaconda3\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\pipelines.py", line 68, in close_spider
+    os.rename(self.runtime_file_path, self.store_file_path)
+OSError: [WinError 87] 參數錯誤。: 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\.tmp.json.swp' -> 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\Gossiping-20210622T14:06:34.json'
+2021-06-22 14:06:34 [scrapy.extensions.feedexport] INFO: Stored json feed (6 items) in: ./output/myproject.json
+2021-06-22 14:06:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3503,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 19419,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 6.914063,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 22, 6, 6, 34, 134261),
+ 'httpcompression/response_bytes': 42118,
+ 'httpcompression/response_count': 8,
+ 'item_scraped_count': 6,
+ 'log_count/DEBUG': 22,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 3,
+ 'request_depth_max': 1,
+ 'response_received_count': 8,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2021, 6, 22, 6, 6, 27, 220198)}
+2021-06-22 14:06:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-06-22 14:07:17 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: myproject)
+2021-06-22 14:07:17 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-22 14:07:17 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-22 14:07:17 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/myproject.log',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['myproject.spiders']}
+2021-06-22 14:07:17 [scrapy.extensions.telnet] INFO: Telnet Password: e01778efa4e9595e
+2021-06-22 14:07:17 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-22 14:07:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-22 14:07:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-22 14:07:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-22 14:07:17 [scrapy.middleware] INFO: Enabled item pipelines:
+['myproject.pipelines.JSONPipeline']
+2021-06-22 14:07:17 [scrapy.core.engine] INFO: Spider opened
+2021-06-22 14:07:17 [PTTCrawler] DEBUG: Create temp file for store JSON - C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\crawled_data\.tmp.json.swp
+2021-06-22 14:07:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-22 14:07:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-22 14:07:19 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.ptt.cc/robots.txt> (referer: None)
+2021-06-22 14:07:20 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.ptt.cc/bbs/Gos/index.html> (referer: None)
+2021-06-22 14:07:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://www.ptt.cc/bbs/Gos/index.html>: HTTP status code is not handled or not allowed
+2021-06-22 14:07:20 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-22 14:07:20 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "c:\users\vincentlee1231995\anaconda3\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\pipelines.py", line 68, in close_spider
+    os.rename(self.runtime_file_path, self.store_file_path)
+OSError: [WinError 87] 參數錯誤。: 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\.tmp.json.swp' -> 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\Gos-20210622T14:07:20.json'
+2021-06-22 14:07:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 629,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 2458,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/404': 2,
+ 'elapsed_time_seconds': 2.933612,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 22, 6, 7, 20, 600258),
+ 'httpcompression/response_bytes': 1561,
+ 'httpcompression/response_count': 2,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 6, 22, 6, 7, 17, 666646)}
+2021-06-22 14:07:20 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-06-22 14:07:46 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: myproject)
+2021-06-22 14:07:46 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.19041-SP0
+2021-06-22 14:07:46 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-22 14:07:46 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/myproject.log',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['myproject.spiders']}
+2021-06-22 14:07:46 [scrapy.extensions.telnet] INFO: Telnet Password: 342c97a9972f8d5d
+2021-06-22 14:07:46 [py.warnings] WARNING: c:\users\vincentlee1231995\anaconda3\lib\site-packages\scrapy\extensions\feedexport.py:247: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2021-06-22 14:07:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-22 14:07:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-22 14:07:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-22 14:07:46 [scrapy.middleware] INFO: Enabled item pipelines:
+['myproject.pipelines.JSONPipeline']
+2021-06-22 14:07:46 [scrapy.core.engine] INFO: Spider opened
+2021-06-22 14:07:46 [PTTCrawler] DEBUG: Create temp file for store JSON - C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\crawled_data\.tmp.json.swp
+2021-06-22 14:07:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-22 14:07:46 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-22 14:07:49 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.ptt.cc/robots.txt> (referer: None)
+2021-06-22 14:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/index.html> (referer: None)
+2021-06-22 14:07:50 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py:24: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 24 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article [問卦] 換約要換哪個電信？
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article Re: [爆卦] 本土+78、境外+1、死亡+6
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article [問卦] 老闆說他店裡跟米字有關的都有賣？
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article Re: [爆卦] 本土+78、境外+1、死亡+6
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article [問卦] 自己捅婁子處理完又誇獎自己的是什麼人
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article [問卦] 台灣人表現不錯了啦
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Parse article Re: [問卦] 當年SHE怎麼沒有黑掉?
+2021-06-22 14:07:50 [PTTCrawler] DEBUG: Reach the last article
+2021-06-22 14:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:51 [py.warnings] WARNING: C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py:57: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 57 of the file C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\spiders\PTTCrawler.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  soup = BeautifulSoup(response.text)
+
+2021-06-22 14:07:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html', 'article_id': 'M.1624342640.A.D7A', 'article_author': 'WeiU (微，Ｕ文)', 'article_title': '[問卦] 換約要換哪個電信？', 'article_date': 'Tue Jun 22 14:17:16 2021', 'article_content': '欸欸肥宅\n\n小妹我公館IU\n\n最近快要換約了\n\n現在用台灣之星\n\n覺得難用想換別家\n\n要選哪家比較好呢\n\n有卦嗎嘻嘻\n\nSent from JPTT on my iPhone\n\n\n\n我是\u3000\u3000微，Ｕ文\n\n專發\u3000\u3000微，優文\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342640.A.D7A.html', 'ip': '58.114.9.67', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342775.A.A77.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342758.A.CE7.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html> (referer: https://www.ptt.cc/bbs/Gossiping/index.html)
+2021-06-22 14:07:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html', 'article_id': 'M.1624342701.A.74F', 'article_author': 'iecju520 (哎依喜德魯)', 'article_title': 'Re: [爆卦] 本土+78、境外+1、死亡+6', 'article_date': 'Tue Jun 22 14:18:19 2021', 'article_content': '1450 還在維穩\n\n還是一樣辣 不普篩\n\n這些數字根本沒參考性\n\n哀 台灣總是一堆啊Ｑ精神\n\n難怪台灣會淪陷\n\n反普篩仔就是罪魁禍首 : 哇靠士林跟北農有沒有算進去阿 : 台北才25例 : 還是唐鳳系統又有問題了傳不上去 : 後面再笑證回歸 : 唯一作為就只有一些人打到疫苗 : 這樣可以狂降，也是猛猛的 https://www.ptt.cc/bbs/Gossiping/M.1624342701.A.74F.html', 'ip': '180.217.15.50', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html', 'article_id': 'M.1624342647.A.6CA', 'article_author': 'zakijudelo (Zack)', 'article_title': 'Re: [爆卦] 本土+78、境外+1、死亡+6', 'article_date': 'Tue Jun 22 14:17:25 2021', 'article_content': '怎麼那麼奇怪啊 https://i.imgur.com/XVwSwLU.jpg 台北市也才新增25例而已\n怎麼媒體及八卦政黑的網軍把某農及士林炒得像什麼大爆發似的\n相較於311/諾富特那時他們輕輕放下的態度\n這種不對等攻擊\n到底有何目的\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342647.A.6CA.html', 'ip': '101.12.34.37', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342775.A.A77.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342775.A.A77.html', 'article_id': 'M.1624342775.A.A77', 'article_author': 'cigaretteass (NONE)', 'article_title': 'Re: [問卦] 當年SHE怎麼沒有黑掉?', 'article_date': 'Tue Jun 22 14:19:32 2021', 'article_content': ':  引述《ronny1020 (偷偷魯蛇)》之銘言： : : 因為中國話這張專輯發在 2007 年 : : 2006 年剛才發生過扁案 : : 2008 年馬總統當選 : : 那種時候哪有人在檢討討好中國的 : 那時候華研剛辦完一個什麼創作大賽 : 鄭楠拿亞軍 就開始捧他 大量用他的詞曲 : 鄭楠就中國人啊 : 當年中國話這張專輯10首就有4首是鄭楠寫的 : 中國話這首作詞作曲編曲都是他 : 卍正宗卍中國血統 : 但這張專輯蠻爛的 沒幾首好聽的 : 八卦是我記得那時候自由時報照三餐在修理啊 : 華研好像還氣到記者會都不發記者證給自由 : 不給自由採訪 : https://i.imgur.com/vjevupM.jpg 滿感慨的\n\n幾年前魯叔去中國做生意\n\n在兩廣一帶店家都還在放周杰倫前兩三張專輯\n\n不小心講台語或是多加了一些語助詞被妹子認出台灣人\n\n巴著不放一直要我講台灣的事\n\n當時滿街還是周早期的衣著風格\n\n戴個潮潮的帽子 hoodie寬褲板鞋\n\n我們當時都開玩笑講周如果去選兩廣首長一定上\n\n我覺得 硬體的進步有錢就可以搞 蓋高樓搞地標性建築\n\n但是軟體的進步需要時間去醞釀去沉澱\n\n當時總覺得北上深廣妹子妝感衣著總是差一味\n\n接著中國好聲音、新歌聲之類的歌唱節目平地一聲雷\n\n搞得好像不會唱個兩句不敢出門走跳似地\n\n當時就可以感覺到這是政策性的節目\n\n老共富了 但是軟體還是跟不上\n\n音樂的確是可以最快提升一個人整體氣質的捷徑\n\n於是搞音樂玩樂器變成了全民運動\n\n造成中國大陸新一代的音樂人才輩出\n\n這陣子在找唱歌的資料 發現相較於台灣的歌唱資源\n\n對面簡直可以用可怕來形容 專業度不用說\n\n傳達肌肉或氣息運用的文字使用精確\n\n直播示範唱功的能力也是相當強大\n\n相較於台灣很多音樂教唱的影片 還在用感覺或是模糊的文字教學\n\n示範也是讓人邊看邊替老師捏一把冷汗\n\n明顯感覺到連文化上都被迎頭趕上了\n\n這幾年台灣的內耗真的不是開玩笑的...\n\n\n\nposted from my fuking fingers on my Nokia 3310 https://www.ptt.cc/bbs/Gossiping/M.1624342775.A.A77.html', 'ip': '118.166.196.190', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html', 'article_id': 'M.1624342658.A.93D', 'article_author': 'fengwen (啦勒)', 'article_title': 'Re: [新聞] 蘇貞昌:雙北外送員、收銀員、計程車司機7', 'article_date': 'Tue Jun 22 14:17:36 2021', 'article_content': '真的是看爽給誰就給誰\n\n計程車就說沒生意要紓困了  結果還說高風險先打疫苗\n這邏輯不知道跟誰學的\n\n要上班的每個韭菜都有可能接觸一堆人\n偏偏就挑一堆爭議最高的讓他們爽  勞工果然是最軟的一塊 隨便捏到死喔\n各位低等勞工  乖乖等高端吧\n\n是817的勞工就自己乖乖吞下去 不是817就怪你贏不了他們阿 也只能吞了 : 計程車司機一天接觸的人數，根本沒有我上班接觸的人多 : 他一週接觸的人數，說不定也沒有我通勤一次接觸的人多 : 你說他們賺不到錢，要一直塞紓困就算了 : 居然還說他們高風險？是在搞笑嗎？ : 那物流業者算不算高風險？他們接觸到的人應該也比小黃多，移動範圍還更大 : 每天這麼多小黃去加油，加油站員工算不算高風險？ : 根本每個人都有理由想先打，政府這樣搞乾脆全面抽籤好了，跟藝fun券一樣 :  : Sent from JPTT on my Asus ASUS_X01BDA. https://www.ptt.cc/bbs/Gossiping/M.1624342658.A.93D.html', 'ip': '111.240.127.118', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342758.A.CE7.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342758.A.CE7.html', 'article_id': 'M.1624342758.A.CE7', 'article_author': 's32214 (士林洋港湖線)', 'article_title': '[問卦] 台灣人表現不錯了啦', 'article_date': 'Tue Jun 22 14:19:16 2021', 'article_content': '噁死台頭。\n先不管政治顏色。\n臺灣人表現得很好了，沒有硬封城的前提下 能夠把巔峰控制在三四百，然後這兩天回到兩\n位數，很多人不要只會在那邊酸。\n我在澳洲去年每天五百八百的時候去超市完全沒有人戴口罩，白人沒在怕，後來會歸零是因\n為強制封了三個月，不然根本沒人要理你。\n臺灣能做到這點大家都很努力，夏天口罩出門他媽真的想死。\n\n臺灣加油。\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342758.A.CE7.html', 'ip': '101.12.64.58', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html', 'article_id': 'M.1624342668.A.4D9', 'article_author': 'tudo0430 (可愛いは正義であり！)', 'article_title': '[問卦] 老闆說他店裡跟米字有關的都有賣？', 'article_date': 'Tue Jun 22 14:17:46 2021', 'article_content': '乳提\n\n裝米的米斗米缸\n\n人吃的米糕米餅\n\n豬吃的米渣米糠\n\n統統都有賣\n\n連米田共都有得賣\n\n該問他什麼跟米有關的東西才能打他的臉？\n\n有卦？\n\n\n\n？？？：お嬢ちゃん、魔法少女になる気ないかい？\n女の子：魔法少女？どうやってなるの？\n？？？：簡単さ、まず吾の股間の魔法ステッキを握ったまま、手首を上下動かせて\n\u3000      、次第に魔法ステッキが大きくなるから。そう、その調子。最後に魔法ステ\n\u3000\u3000\u3000\u3000ッキの先っちょから出る白い魔法薬液を飲んだら魔法少女になれるのさ。\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342668.A.4D9.html', 'ip': '101.10.15.207', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html>
+{'url': 'https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html', 'article_id': 'M.1624342715.A.C6D', 'article_author': 'WuDangJie (國安雞精準備進場)', 'article_title': '[問卦] 自己捅婁子處理完又誇獎自己的是什麼人', 'article_date': 'Tue Jun 22 14:18:33 2021', 'article_content': '是這樣啦\n\n有個同事最近出了個包\n\n大家忙手忙腳的幫他處理完後\n\n他又好像一副自己把麻煩處理好很厲害的樣子\n\n一直說自己哪裡哪裡做得很好\n\n啊也不想想一開始就是自己出的包= =\n\n跟他說一開始他做錯了又死不承認\n\n一直說他就算做錯了 但他後續處理得很好\n\n請問要怎麼形容這種人啊？\n\n無賴？不要臉？自導自演？\n\n還是有什麼詞可以嗆到他沒辦法反駁的？\n\n\n\nSent from JPTT on my iPhone\n\n https://www.ptt.cc/bbs/Gossiping/M.1624342715.A.C6D.html', 'ip': '36.230.213.227', 'message_count': {'all': 0, 'count': 0, 'push': 0, 'boo': 0, 'neutral': 0}, 'messages': []}
+2021-06-22 14:07:54 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-22 14:07:54 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "c:\users\vincentlee1231995\anaconda3\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\vincentLee1231995\OneDrive\Documents\Personal\Crawling-in-60Days\Homework\Day_28\Day029_Scrapy_PTT\myproject\myproject\pipelines.py", line 68, in close_spider
+    os.rename(self.runtime_file_path, self.store_file_path)
+OSError: [WinError 87] 參數錯誤。: 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\.tmp.json.swp' -> 'C:\\Users\\vincentLee1231995\\OneDrive\\Documents\\Personal\\Crawling-in-60Days\\Homework\\Day_28\\Day029_Scrapy_PTT\\myproject\\crawled_data\\Gossiping-20210622T14:07:54.json'
+2021-06-22 14:07:54 [scrapy.extensions.feedexport] INFO: Stored csv feed (8 items) in: ./output/myproject.csv
+2021-06-22 14:07:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4459,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 25938,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 9,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 7.52426,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 22, 6, 7, 54, 176740),
+ 'httpcompression/response_bytes': 56002,
+ 'httpcompression/response_count': 10,
+ 'item_scraped_count': 8,
+ 'log_count/DEBUG': 28,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 3,
+ 'request_depth_max': 1,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'start_time': datetime.datetime(2021, 6, 22, 6, 7, 46, 652480)}
+2021-06-22 14:07:54 [scrapy.core.engine] INFO: Spider closed (finished)
